@@ -1,0 +1,519 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Rapport de lancement &#8211; Hugo Lignères </title>
+	<atom:link href="https://hugolgs-dev.github.io/category/rapport-lancement/feed/" rel="self" type="application/rss+xml" />
+	<link>https://hugolgs-dev.github.io</link>
+	<description></description>
+	<lastBuildDate>Fri, 24 May 2024 17:50:01 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
+	<item>
+		<title>Veille technologique</title>
+		<link>https://hugolgs-dev.github.io/veille-technologique/</link>
+					<comments>https://hugolgs-dev.github.io/veille-technologique/#respond</comments>
+		
+		<dc:creator><![CDATA[hugolgs-portfolio]]></dc:creator>
+		<pubDate>Thu, 04 Apr 2024 20:00:08 +0000</pubDate>
+				<category><![CDATA[Rapport de lancement]]></category>
+		<guid isPermaLink="false">https://hugolgs-dev.github.io/?p=23</guid>
+
+					<description><![CDATA[Pour la refonte du site web du studio&#160;: Le CMS actuellement utilisé pour ce projet est WordPress. La principale raison derrière ce choix est la demande de plus en plus élevée de la part des clients d’utiliser ce CMS pour leur site web. Arthur a développé un thème propre à WEB &#38; Cie, nommé Orion,&#8230; <br> <a class="read-more" href="https://hugolgs-dev.github.io/veille-technologique/">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">Pour la refonte du site web du studio&nbsp;:</h2>
+
+
+
+<p>Le CMS actuellement utilisé pour ce projet est WordPress. La principale raison derrière ce choix est la demande de plus en plus élevée de la part des clients d’utiliser ce CMS pour leur site web. Arthur a développé un thème propre à WEB &amp; Cie, nommé Orion, avec des styles et des paramètres qu&rsquo;il a lui même prédéfinis. Ainsi, ce thème personnalisé permet de partir d’une base pour chaque sous-thème utilisé pour chacun des sites développés. Ensuite, on peut d’enrichir cette base, en intégrant des éléments la charte graphique et des visuels spécifiques à chaque site. </p>
+
+
+
+<p>Cependant, il existe différentes alternatives à WordPress. Selon ce <a href="https://techreport.com/statistics/cms-statistics/">site</a>, il existe 2 principales alternatives à WordPress, bien que ce dernier reste de loin le plus populaire&nbsp;: Drupal et Joomla.</p>
+
+
+
+<p>Drupal, en plus d’être plus complexe que ces 2 homologues, est surtout pertinent pour des sites web complexes et des applications web. Ce qui n’est pas le cas du site de WEB &amp; Cie, donc Drupal ne convient pas vraiment à ce projet. En ce qui concerne Joomla, son niveau de complexité et de versatilité se rapproche de WordPress. Cependant, il possède une courbe d’apprentissage plus abrupte que WordPress.</p>
+
+
+
+<p>Pour ces raisons, et en plus de la familiarité avec WordPress, ce dernier reste la meilleure solution pour ce projet. On peut enfin noter l’option d’utiliser SPIP. Cependant, bien que ce CMS est plus familier pour mon tuteur de stage, WordPress constitue là aussi la solution plus adéquate. </p>
+
+
+
+<p>J’ajouterai aussi que WordPress est doté de l’éditeur Gutenberg. Ce dernier permet de faciliter la génération du code source de la page à partir du contenu saisi depuis l&rsquo;éditeur. Il est possible de générer directement des classes, des tailles de police, des couleurs de fond, etc. Ensuite, on peut régler ces paramètres depuis les fichiers de style ou le fichier function.php de WordPress. Comme cela, en appliquant directement ces paramètres depuis l&rsquo;éditeur, la page est directement générée en fonction du style appliqué au contenu.</p>
+
+
+
+<p>La partie back-office du site étant abordée, voyons désormais comment choisir les outils pour la partie front.</p>
+
+
+
+<p>Le premier élément à prendre en compte est le langage de style utilisé. Il est évident que ce dernier est CSS. Cependant, il existe des langages préprocesseurs de CSS, que sont SCSS et Less. Ces derniers permettent d’étendre les fonctionnalités de CSS. Ils permettent aussi d’améliorer l’efficacité du développeur, grâce notamment à l’utilisation de fonctions et raccourcis dont ne dispose pas le CSS de base.</p>
+
+
+
+<p>Comment choisir entre Less et SCSS ? Less est le langage de choix d’Arthur, il serait donc naturel de se diriger vers celui-ci. Cependant, Less n’est pas le plus adapté et compatible à WordPress. En effet, depuis l&rsquo;abandon du plug-in wp-less, il n&rsquo;y a plus de bon plug-in permettant à Less d&rsquo;être bien intégré à WordPress. Ce qui n&rsquo;est pas le cas de SCSS, qui a beaucoup plus de supports. SCSS convient donc plus à WordPress. C’est donc sur ce dernier que le choix s’est porté.</p>
+
+
+
+<p>Le deuxième élément utilisé pour développer la partie front du site est Javascript, qui permet notamment d’apporter de l’interactivité auprès de l’utilisateur sur les pages. Le site étant surtout un site vitrine, il n’y pas beaucoup d’aspects à gérer en javascript. Javascript peut être aussi utilisé pour gérer le formulaire de contact. Ce dernier étant construit avec Contact Form 7, un plug-in de WordPress, toutes les fonctionnalités ajoutables avec Javascript sont déjà présentes.</p>
+
+
+
+<p>Le premier choix qui s’opère pour utiliser Javascript est entre Javascript dit « vanilla » et la librairie jQuery. Cette dernière était surtout utilisée il y a quelques années pour gérer les différences de compatibilités entre les navigateurs web. Maintenant, cette problématique n’étant plus vraiment d’actualité, jQuery a perdu un peu de sa pertinence. Dorénavant, la principale raison d’utiliser jQuery est de raccourcir le code et augmenter l’efficacité du développeur. Javascript vanilla peut vite devenir verbeux sur les codes de taille importante, donc jQuery permet d’apporter de la clarté. Cependant, les quelques scripts que je produits font à peine une dizaine de lignes en moyenne. Donc jQuery est peu pertinent pour ce projet.</p>
+
+
+
+<div class="wp-block-group"><div class="wp-block-group__inner-container is-layout-constrained wp-block-group-is-layout-constrained">
+<p>Voici un exemple de fonctionnalité implémentée en javascript. En bas à droite de la page, se trouve une bulle verte avec une enveloppe. Lorsque l&rsquo;on clique sur cette bulle, l&rsquo;utilisateur est renvoyé en bas de la page, là où se situe le formulaire de contact. Seulement, si l&rsquo;utilisateur est déjà positionné au niveau de ce formulaire, il n&rsquo;est donc pas utile d&rsquo;avoir un lien qui renvoi vers le formulaire. C&rsquo;est donc l&rsquo;objectif de cette fonctionnalité. Comme on peut le voir dans l&rsquo;image 2, la bulle n&rsquo;apparaît plus lorsque que l&rsquo;on est positionné au niveau du formulaire. Ceci est rendu possible grâce au code javascript visible dans la troisième image. Voici donc un exemple de fonctionnalité légère qui permet de rendre l&rsquo;expérience utilisateur plus fluide.</p>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large is-style-default"><img fetchpriority="high" decoding="async" width="1024" height="546" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/03/bulle_1-1024x546.jpg" alt="" class="wp-image-116" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/03/bulle_1-1024x546.jpg 1024w, https://hugolgs-dev.github.io/wp-content/uploads/2024/03/bulle_1-300x160.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/03/bulle_1-768x409.jpg 768w, https://hugolgs-dev.github.io/wp-content/uploads/2024/03/bulle_1.jpg 1122w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="765" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/03/bulle_2-1024x765.jpg" alt="" class="wp-image-117" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/03/bulle_2-1024x765.jpg 1024w, https://hugolgs-dev.github.io/wp-content/uploads/2024/03/bulle_2-300x224.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/03/bulle_2-768x574.jpg 768w, https://hugolgs-dev.github.io/wp-content/uploads/2024/03/bulle_2.jpg 1084w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img decoding="async" width="1024" height="322" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/03/bulle_code-1024x322.jpg" alt="" class="wp-image-115" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/03/bulle_code-1024x322.jpg 1024w, https://hugolgs-dev.github.io/wp-content/uploads/2024/03/bulle_code-300x94.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/03/bulle_code-768x241.jpg 768w, https://hugolgs-dev.github.io/wp-content/uploads/2024/03/bulle_code.jpg 1035w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+</figure>
+</div></div>
+
+
+
+<p>Voici pour la partie sur la refonte du site internet de WEB &amp; Cie. Intéressons-nous désormais à l&rsquo;application Balao.</p>
+
+
+
+<p></p>
+
+
+
+<p></p>
+
+
+
+<h2 class="wp-block-heading">Balao&nbsp;:</h2>
+
+
+
+<p>Il s’agit d’une application web. Outre l’interface utilisateurs, il faut donc gérer l’aspect dynamique de l’application. Enfin, comme il y a des fonctionnalités qui engendrent des transactions financières et des données personnelles, ainsi qu&rsquo;un système de votes. Il y a donc un aspect de sécurité crucial à prendre en compte. Je vais aborder dans cette partie l’aspect dynamique de l’application, ainsi que l’aspect sécurité.</p>
+
+
+
+<p>Concernant l’interface, les outils seront les mêmes que pour le site web du studio, à savoir SCSS et Javascript.</p>
+
+
+
+<h3 class="wp-block-heading">L’aspect dynamique</h3>
+
+
+
+<p>Cette partie du site web se sépare en 2 catégories&nbsp;: la base de données, gérée avec MySQL, et le traitement des requêtes ainsi que la logique du contrôleur, gérés avec le langage PHP. En ce qui concerne le back-office qui gère le contenu, le CMS utilisé est SPIP, et non WordPress. SPIP a l’avantage d’être particulièrement compatible avec PHP et MySQL, ce qui constitue un choix très pertinent.</p>
+
+
+
+<h3 class="wp-block-heading">L’aspect sécurité</h3>
+
+
+
+<p>Je sais que l’application est en développement depuis 4 ans donc l’aspect sécuritaire est très bien géré. Cependant, je n’ai pas de précision sur la manière précise dont ces éléments sont intégrés. Pour cette étude, je vais donc partir du principe qu’aucune sécurité renforcée n’a été implémentée, hors celles déjà présentes grâce à SPIP. Voici donc une liste de sécurités que je recommande d&rsquo;implémenter, si elles ne le sont pas déjà.</p>
+
+
+
+<ul>
+<li>Échapper les caractères saisis par les utilisateurs pour éviter les attaques XSS et les injections SQL ;</li>
+
+
+
+<li>Mettre en place des requêtes SQL préparées pour renforcer la sécurité de ces dernières ;</li>
+
+
+
+<li>Hachage des mots de passe :</li>
+
+
+
+<li>Imposer aux utilisateurs d&rsquo;utiliser des mots de passe complexes lors de l&rsquo;inscription ;</li>
+
+
+
+<li>Se baser sur les réglementations de la RGPD pour le stockage et l&rsquo;utilisation des données personnelles des utilisateurs ;</li>
+
+
+
+<li>Concernant la sécurisation des transactions financières, il faut mettre en place des protocoles de sécurité renforcés. Par exemple, en utilisant des protocoles HTTPS.</li>
+
+
+
+<li>Utiliser des cookies sécurisés pour prévenir des attaques de type Cross Site Request Forgery ;</li>
+</ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://hugolgs-dev.github.io/veille-technologique/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Détail des missions</title>
+		<link>https://hugolgs-dev.github.io/detail-des-missions/</link>
+					<comments>https://hugolgs-dev.github.io/detail-des-missions/#respond</comments>
+		
+		<dc:creator><![CDATA[hugolgs-portfolio]]></dc:creator>
+		<pubDate>Wed, 03 Apr 2024 20:00:23 +0000</pubDate>
+				<category><![CDATA[Rapport de lancement]]></category>
+		<guid isPermaLink="false">https://hugolgs-dev.github.io/?p=19</guid>
+
+					<description><![CDATA[Durant ces deux mois de stage, je suis donc amené à travailler sur deux projets différents. Le premier est de travailler sur la refonte du site internet de WEB &#38; Cie. Cette mission dure environ trois semaines, et devrait s&#8217;achever au début de la quatrième semaine. Le deuxième projet durant ce stage sera de participer&#8230; <br> <a class="read-more" href="https://hugolgs-dev.github.io/detail-des-missions/">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>Durant ces deux mois de stage, je suis donc amené à travailler sur deux projets différents.</p>
+
+
+
+<p>Le premier est de travailler sur la refonte du site internet de WEB &amp; Cie. Cette mission dure environ trois semaines, et devrait s&rsquo;achever au début de la quatrième semaine. Le deuxième projet durant ce stage sera de participer au développement de l&rsquo;application Balao, pendant environ quatre semaines. Les objectifs principaux sont d&rsquo;améliorer la fluidité du site, d&rsquo;enrichir certaines fonctionnalités et d&rsquo;apporter des améliorations sur l&rsquo;ergonomie du site, notamment l&rsquo;interface pour les utilisateurs du site sur mobile ou tablette orientée en portrait.</p>
+
+
+
+<p>Concernant Balao, à l&rsquo;heure où j&rsquo;écris ce rapport, je suis encore en train de travailler sur la mission de la refonte du site. Je n&rsquo;ai donc pas beaucoup de détails sur ce que je vais faire précisément sur cette misison. Cela dépendra des besoins à combler au moment voulu. Par exemple, comme je l&rsquo;ai abordé <a href="https://hugolgs-dev.github.io/besoins-a-lorigine-des-projets/" data-type="post" data-id="21">ici</a>,  il pourrait s’agir d’améliorer la gestion des comptes utilisateurs, notamment certains paramètres de la base de données, pour améliorer la fluidité de cette fonctionnalité. Il peut également s’agir d’améliorer certains aspects de l’interface utilisateurs, comme une meilleure gestion des onglets, une amélioration de l’ergonomie, etc. C&rsquo;est pourquoi, je vais surtout aborder mon travail sur la refonte du site internet.</p>
+
+
+
+<h3 class="wp-block-heading">Refonte du site internet du studio</h3>
+
+
+
+<p>Comme on l&rsquo;a vu dans la <a href="https://hugolgs-dev.github.io/besoins-a-lorigine-des-projets/" data-type="post" data-id="21">partie abordant les besoins du projet,</a> le site actuel de WEB &amp; Cie fait peau neuve et se découpe maintenant en trois sites différents, un pour chaque activité de l&rsquo;agence. C&rsquo;est donc sur le premier des trois sites que je suis amené à travailler, celui du studio web.</p>
+
+
+
+<p>Le CMS utilisé pour mettre en place le contenu du nouveau site est WordPress. Je travaille donc avec l&rsquo;outil Gutenberg pour éditer le contenu et générer le code source du site. Pour travailler sur le style du site, SCSS et Javascript sont les outils que j&rsquo;utilise.</p>
+
+
+
+<p>Comme point de départ, je dispose d&rsquo;une maquette de la page que je dois mettre en place. Par exemple, la maquette ci-dessous, qui est la maquette de la page d&rsquo;accueil du site.</p>
+
+
+
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-1 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="678" height="828" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/04/maquette_2.jpg" alt="" class="wp-image-132" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/04/maquette_2.jpg 678w, https://hugolgs-dev.github.io/wp-content/uploads/2024/04/maquette_2-246x300.jpg 246w" sizes="(max-width: 678px) 100vw, 678px" /></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="687" height="883" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/04/maquette.jpg" alt="" class="wp-image-131" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/04/maquette.jpg 687w, https://hugolgs-dev.github.io/wp-content/uploads/2024/04/maquette-233x300.jpg 233w" sizes="(max-width: 687px) 100vw, 687px" /></figure>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="590" height="848" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/04/maquette_3.jpg" alt="" class="wp-image-130" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/04/maquette_3.jpg 590w, https://hugolgs-dev.github.io/wp-content/uploads/2024/04/maquette_3-209x300.jpg 209w" sizes="(max-width: 590px) 100vw, 590px" /></figure>
+</div>
+</div>
+
+
+
+<p>En plus des maquettes, je peux également utiliser des éléments déjà présents sur le site actuel, comme les couleurs, les boutons, la police et les éléments de décorations. Pour cette partie du site par exemple, je reprends les éléments de décorations autour de « notre spécialité », en les adaptant évidemment aux contraintes du site que j&rsquo;ai codé.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="906" height="519" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/04/specialite.jpg" alt="" class="wp-image-135" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/04/specialite.jpg 906w, https://hugolgs-dev.github.io/wp-content/uploads/2024/04/specialite-300x172.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/04/specialite-768x440.jpg 768w" sizes="(max-width: 906px) 100vw, 906px" /></figure></div>
+
+
+<h3 class="wp-block-heading">Contraintes et défis</h3>
+
+
+
+<p>En effet, le site actuel étant fait avec SPIP et Less, et le nouveau avec WordPress et SCSS, le code source et les feuilles de style ne sont pas similaires. Le défi principal durant cette mission est donc d&rsquo;arriver à obtenir, pour les parties du site qui le demandent, un résultat le plus proche possible du site actuel. Par exemple, la partie dans la capture d&rsquo;écran ci-dessus, ou encore la partie contact du site. Si vous regardez le <a href="https://www.web-et-cie.fr/" data-type="link" data-id="https://www.web-et-cie.fr/" target="_blank" rel="noreferrer noopener">site actuel</a>, vous verrez que ces 2 éléments sont très similaires aux captures d&rsquo;écran fournies, prises depuis le site sur lequel je travaille.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="879" height="755" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/04/formulaire.jpg" alt="" class="wp-image-136" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/04/formulaire.jpg 879w, https://hugolgs-dev.github.io/wp-content/uploads/2024/04/formulaire-300x258.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/04/formulaire-768x660.jpg 768w" sizes="(max-width: 879px) 100vw, 879px" /></figure></div>
+
+
+<h3 class="wp-block-heading">Organisation du code</h3>
+
+
+
+<p>L&rsquo;autre objectif durant cette mission est de fournir un code propre, pour faciliter la maintenance du site. En effet, Arthur reprendra mon travail par la suite, pour continuer d&rsquo;avancer sur les autres pages du site, ainsi que sur les deux autres sites internet. Pour ce faire, je dois donc mettre en place un rangement précis des fichiers du code. Ceci permet de séparer le code en plusieurs morceaux, afin de facilement retrouver quelles lignes sur lesquelles travailler pour changer un élément de la page. Voici comment se découpe les fichiers du code : </p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="204" height="190" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/04/fichiers.jpg" alt="" class="wp-image-141"/></figure></div>
+
+
+<ul>
+<li>Blocs : ce dossier contient les fichiers qui gèrent le style d&rsquo;éléments qui vont apparaître plusieurs fois, à l&rsquo;identique, sur les pages du site. C&rsquo;est le cas par exemple des liens en forme de bouton ;</li>
+
+
+
+<li>Composants: ce dossier est similaire à celui des blocs. Cependant, les éléments présents ici sont surtout des éléments qui permettent de styler des éléments visuels : les titres, les images, les icônes, etc. ,</li>
+
+
+
+<li>Fonts : ce dossier contient les fichiers des deux Google Fonts utilisés sur le site, à savoir Caveat et Poppins ;</li>
+
+
+
+<li>Global : dedans sont présentes les feuilles de style pour les éléments très généraux : le style du header, du footer, les polices, etc ;</li>
+
+
+
+<li>Pages : il contient des feuilles de style pour les pages du site, une feuille pour chaque page. C&rsquo;est surtout dans le but d&rsquo;appliquer un style à un élément uniquement présent sur une page. Si cet élément, avec le même style, se répète au moins deux fois, alors il faut créer une feuille de style pour celui-ci, et la ranger dans un des autres dossiers, en fonction du rôle qu&rsquo;il occupe.</li>
+</ul>
+
+
+
+<p>Voici un exemple du code d&rsquo;une feuille de style, celle de <strong>typos.scss</strong>, dans le dossier « global ». Cette feuille permet de gérer les polices du site : leurs tailles, leurs couleurs, leurs graisses, etc. Comme ces styles s&rsquo;appliquent sur des éléments généraux du site, présents sur toutes les pages, alors la feuille de style est rangée dans le dossier « global ».</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="553" height="894" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/04/code_typo.jpg" alt="" class="wp-image-139" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/04/code_typo.jpg 553w, https://hugolgs-dev.github.io/wp-content/uploads/2024/04/code_typo-186x300.jpg 186w" sizes="(max-width: 553px) 100vw, 553px" /></figure></div>
+
+
+<h3 class="wp-block-heading">Le responsive</h3>
+
+
+
+<p>Enfin, je dois également travailler sur le <strong>responsive</strong> des pages du site, notamment pour les écrans de téléphone portable et de tablette orientée en portrait. Là aussi, l&rsquo;idée est de faire le plus simplement possible. C&rsquo;est à dire d&rsquo;appliquer des <strong>media queries</strong> uniquement quand elles sont judicieuses. Par exemple, si un simple <strong>margin: auto</strong> appliqué de base à un élément, suffit à ce que ce dernier soit lisible en format mobile, alors pas besoin d&rsquo;appliquer une media queries dessus.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://hugolgs-dev.github.io/detail-des-missions/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Besoins à l&#8217;origine des projets</title>
+		<link>https://hugolgs-dev.github.io/besoins-a-lorigine-des-projets/</link>
+					<comments>https://hugolgs-dev.github.io/besoins-a-lorigine-des-projets/#respond</comments>
+		
+		<dc:creator><![CDATA[hugolgs-portfolio]]></dc:creator>
+		<pubDate>Tue, 02 Apr 2024 20:00:47 +0000</pubDate>
+				<category><![CDATA[Rapport de lancement]]></category>
+		<guid isPermaLink="false">https://hugolgs-dev.github.io/?p=21</guid>
+
+					<description><![CDATA[Refonte du site internet Actuellement, l&#8217;agence ne dispose que d&#8217;un site pour présenter ses trois activités. Or, ils se sont rendu compte qu&#8217;avoir un seul site rendait très difficile la mise en avant de la variété des missions que peut effectuer l&#8217;agence. De plus, il se peut qu&#8217;un client dispose déjà de visuels et d&#8217;une&#8230; <br> <a class="read-more" href="https://hugolgs-dev.github.io/besoins-a-lorigine-des-projets/">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<h3 class="wp-block-heading">Refonte du site internet</h3>
+
+
+
+<p>Actuellement, l&rsquo;agence ne dispose que d&rsquo;un <a href="https://www.web-et-cie.fr/" target="_blank" rel="noreferrer noopener">site</a> pour présenter ses trois activités. Or, ils se sont rendu compte qu&rsquo;avoir un seul site rendait très difficile la mise en avant de la variété des missions que peut effectuer l&rsquo;agence. De plus, il se peut qu&rsquo;un client dispose déjà de visuels et d&rsquo;une charte graphique, et a uniquement besoin d&rsquo;un site web, ou inversement. Avoir le studio web et l&rsquo;atelier création au même endroit peut prêter à confusion. Le potentiel client peut penser que le studio et l&rsquo;atelier ne sont pas dissociés, et que ses besoins ne sont pas en accord avec ce que propose l&rsquo;agence. </p>
+
+
+
+<p>Pour palier à cette problématique, la décision a donc été prise de créer trois sites différents, un pour chaque activité. Les trois sites auront une organisation similaire :</p>
+
+
+
+<ul>
+<li>Une page d’accueil ;</li>
+
+
+
+<li>Un page qui résume les types de missions que cette activité peut être amenée à remplir. Depuis cette page, les visiteurs pourront également se rendre sur les pages des deux autres activités ;</li>
+
+
+
+<li>Une page pour chaque type de missions, apportant plus de détails. Par exemple, le site du studio web a une page pour la création de sites web, une page pour l&rsquo;installation des réseaux intranets, et une autre pour les services d&rsquo;hébergement et de Cloud.</li>
+</ul>
+
+
+
+<p>L&rsquo;objectif est donc d&rsquo;avoir trois sites bien distincts, un pour chacune des activités de l&rsquo;agence. Cependant, il faut garder en tête que le visiteur doit bien comprendre que, même s&rsquo;il s&rsquo;agit de trois activités différentes, elles font partie de la même entreprise, WEB &amp; Cie. Qu&rsquo;il est donc possible que le studio et l&rsquo;atelier peuvent travailler sur le même projet si besoin, et qu&rsquo;ils sont également liés à Balao. Un moyen de permettre ceci est de garder une identité visuelle similaire sur les trois sites. Par exemple en employant une même charte graphique, mais avec des couleurs principales différentes, une pour chaque site.</p>
+
+
+
+<h3 class="wp-block-heading">Balao</h3>
+
+
+
+<p>L&rsquo;application étant en développement depuis bientôt 4 ans, la plupart des fonctionnalités importantes de la plateforme sont déjà bien implémentées. Cependant, en dehors de la maintenance, il y a toujours des éléments à modifier, à améliorer. Étant donné la complexité d&rsquo;une telle application, chaque modification exige une attention particulière, car modifier un écrou de l&rsquo;engrenage peut avoir un impact sur l&rsquo;entièreté du système. Pour l&rsquo;instant, il y a principalement deux aspects de l&rsquo;application qui ont besoin d&rsquo;être amélioré.</p>
+
+
+
+<p>Le premier est la gestion des utilisateurs, notamment la manière dont ils sont gérés dans la base de données. Par exemple, la majorité des fonctionnalités sont accessibles uniquement à l&rsquo;administrateur du site. Or, il souhaite que certaines d&rsquo;entre-elles puissent être dorénavant gérables par les utilisateurs directement. Cependant, changer les autorisations des utilisateurs demande une réorganisation de la base de données. Il faudra, par exemple, créer de nouvelles tables de permissions, afin de gérer de manière dynamique les nouvelles autorisation des utilisateurs. Également, de nouveaux droits d&rsquo;écritures pour les utilisateurs signifie que ces derniers pourront avoir la possibilité de modifier le contenu de la base de données, depuis la plateforme. Cela va donc demander de modifier les scripts d&rsquo;accès à la base de données, ainsi que d&rsquo;implémenter un système de logs des activités, pour prévenir d&rsquo;éventuels problèmes.</p>
+
+
+
+<p>Le deuxième aspect est l&rsquo;ergonomie et l&rsquo;interface utilisateurs du site. En effet, si plus de personnes auront accès à la plateforme, cela signifie donc que plus d&rsquo;utilisateurs seront susceptibles d&rsquo;utiliser Balao depuis leur téléphone portable. Or, l&rsquo;UI de l&rsquo;application a été principalement conçue en « desktop-first ». Cela signifie donc qu&rsquo;il faut adapter l&rsquo;UI pour que les fonctionnalités soient utilisables depuis un téléphone portable.</p>
+
+
+
+<p>Palier à ces différents besoins sur les deux projets est donc l&rsquo;objectif principal de ces deux mois de stage.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://hugolgs-dev.github.io/besoins-a-lorigine-des-projets/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Présentation du stage</title>
+		<link>https://hugolgs-dev.github.io/presentation-des-missions/</link>
+					<comments>https://hugolgs-dev.github.io/presentation-des-missions/#respond</comments>
+		
+		<dc:creator><![CDATA[hugolgs-portfolio]]></dc:creator>
+		<pubDate>Mon, 01 Apr 2024 20:00:37 +0000</pubDate>
+				<category><![CDATA[Rapport de lancement]]></category>
+		<guid isPermaLink="false">https://hugolgs-dev.github.io/?p=15</guid>
+
+					<description><![CDATA[Structure d’accueil&#160; Web &#38; CIE est une agence de communication web située à Vannes. Elle fût créée en 2019 par les deux membres fondateurs, Arthur et Marie. La mission principale de Web &#38; CIE est de mettre à contribution leur expertise, afin de mettre en place des solutions sur-mesure, pour créer ou renforcer la présence&#8230; <br> <a class="read-more" href="https://hugolgs-dev.github.io/presentation-des-missions/">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<h3 class="wp-block-heading">Structure d’accueil&nbsp;</h3>
+
+
+
+<p><a href="https://www.web-et-cie.fr/" data-type="link" data-id="https://www.web-et-cie.fr/" target="_blank" rel="noreferrer noopener">Web &amp; CIE</a> est une agence de communication web située à Vannes. Elle fût créée en 2019 par les deux membres fondateurs, Arthur et Marie. </p>
+
+
+
+<p>La mission principale de Web &amp; CIE est de mettre à contribution leur expertise, afin de mettre en place des solutions sur-mesure, pour créer ou renforcer la présence numérique de leurs clients. </p>
+
+
+
+<h3 class="wp-block-heading">L&rsquo;équipe</h3>
+
+
+
+<p>Bien qu&rsquo;il y ait eu plusieurs salariés et alternants au fil des années, Arthur et Marie sont actuellement les deux seuls membres actifs de l&rsquo;agence.</p>
+
+
+
+<p>Comme présenté sur la page d’accueil, l’agence rassemble 3 activités :</p>
+
+
+
+<ul>
+<li>Le studio web&nbsp;;</li>
+
+
+
+<li>Balao ;</li>
+
+
+
+<li>L’atelier de création.</li>
+</ul>
+
+
+
+<p>Arthur et Marie occupent chacun un rôle spécifique au sein de l&rsquo;agence :</p>
+
+
+
+<ul>
+<li>Arthur occupe le rôle de développeur web. C&rsquo;est lui qui assure principalement les missions du studio web, ainsi que de la partie développement de l&rsquo;application Balao.</li>
+
+
+
+<li>Marie est la directrice artistique de l&rsquo;agence. Elle s&rsquo;occupe donc principalement des projets de l&rsquo;atelier de création. Concernant Balao, elle gère l&rsquo;aspect UX/UI de la plateforme, et plus particulièrement du design et de l&rsquo;ergonomie de cette dernière.</li>
+</ul>
+
+
+
+<p>Il est a noté que beaucoup de missions de l&rsquo;agence sont communes au studio web et à l&rsquo;atelier de création. Arthur et Marie ont donc des missions en commun ou séparées, en fonction des besoins des clients. Je détaille ce point plus précisément dans la partie <a href="https://hugolgs-dev.github.io/besoins-a-lorigine-des-projets/" data-type="post" data-id="21" target="_blank" rel="noreferrer noopener">où j&rsquo;analyse les besoins à l&rsquo;origine des mes projets</a>.</p>
+
+
+
+<p>Détaillons maintenant les 3 activités de l&rsquo;agence.</p>
+
+
+
+<h4 class="wp-block-heading">Le studio web</h4>
+
+
+
+<p>La mission principale du studio web est de créer et maintenir des sites web pour les clients, afin de développer leur visibilité sur le web et leur présence numérique. Pour cela, les outils principaux utilisés pour remplir ces missions sont WordPress et SPIP. Ce sont deux CMS avec des avantages et des contraintes différentes, mais qui permettent tous les deux d’accéder aux demandes des clients. Le CMS de prédilection d&rsquo;Arthur étant SPIP, c’est avec celui-ci que la plupart des sites ont été construits, dont la première version du site web de l&rsquo;agence. Cependant, avec l’ampleur que prend WordPress, et la volonté de beaucoup des clients d’avoir la main sur le back-office de leur site, de plus en plus de sites sont construits avec ce CMS.</p>
+
+
+
+<p>En plus de la création de sites web, depuis quelques années, le studio propose d’autres services auprès des clients&nbsp;:</p>
+
+
+
+<ul>
+<li>La mise en place de réseaux intranet pour les entreprises&nbsp;;</li>
+
+
+
+<li>Le déploiement d’applications web&nbsp;sur-mesure;</li>
+
+
+
+<li>L&rsquo;installation de services d’hébergement et de solutions Cloud.</li>
+</ul>
+
+
+
+<h4 class="wp-block-heading">Balao</h4>
+
+
+
+<p>Balao est une application web qui permet aux organisateurs d’évènements de gérer les différents aspects organisationnels sur une plateforme où tout est centralisé&nbsp;: l&rsquo;inscription des participants, la gestion des comptes et les autorisations de ces derniers, la facturation, etc. </p>
+
+
+
+<p>La plateforme est en développement depuis quelques années, mais a été mise à disposition pour la première fois auprès des organisateurs de l&rsquo;édition 2023 du <a href="https://www.congresdesarchis.com/">congrès </a><a href="https://www.congresdesarchis.com/" target="_blank" rel="noreferrer noopener">des </a><a href="https://www.congresdesarchis.com/">architectes</a>. Il s&rsquo;agissait là surtout d&rsquo;un premier test important pour la plateforme. Cela a permis de repérer les principaux axes d&rsquo;améliorations. Il est prévu que la plateforme soit de nouveau utilisée pour l&rsquo;édition 2024 du congrès, les organisateurs ayant été plus que satisfaits de l&rsquo;apport positif de la plateforme.</p>
+
+
+
+<p>Le principal objectif sera, d&rsquo;ici quelques années, de rendre la plateforme accessible à toute personne organisant des évènements. </p>
+
+
+
+<h4 class="wp-block-heading">L&rsquo;atelier création</h4>
+
+
+
+<p>L&rsquo;objectif principal de l&rsquo;atelier est de créer des éléments visuels, sur-mesures, pour des clients qui souhaitent améliorer leur image et leur communication numériques. Le design graphique est la composante principale de l&rsquo;atelier. Cela permet de proposer aux clients une identité visuelle, des supports visuels, un packaging, etc. Le motion design est l&rsquo;autre champs de compétences proposé par l&rsquo;atelier. Cela permet de proposer à leurs clients des visuels animés, afin de mieux communiquer leurs messages.</p>
+
+
+
+<h3 class="wp-block-heading"><strong>Collaboration et communication</strong></h3>
+
+
+
+<p>En raison de problèmes de santé rendant le travail en présentiel très compliqué, ce stage se déroule en télétravail à 100%. Étant donné que l&rsquo;équipe était déjà en télétravail avant mon arrivée, cela n&rsquo;a demandé aucune adaptation particulière de leur part. L&rsquo;outil principal de communication est la plateforme Slack.</p>
+
+
+
+<p>Concernant le suivi avec le tuteur de stage, Arthur, voici comment on s’organise&nbsp;:</p>
+
+
+
+<p>Il y a au moins un commit sur GitHub par jour pour faciliter l&rsquo;échange et la vérification du code entre lui et moi. Cela me permet également de tenir un carnet de bord, pour garder une trace quotidienne de l&rsquo;évolution de mes missions.</p>
+
+
+
+<p>Nous échangeons aussi à l’écrit très régulièrement. Je lui envoie souvent des captures de ce que j&rsquo;obtiens, pour montrer mon avancement, poser des questions, préciser certains points, ou solliciter son aide si je bloque quelque part.</p>
+
+
+
+<p>Enfin, nous faisons un appel environ 1 fois par jour, afin de faire le point, discuter de mon avancement, régler les problèmes, indications pour résolutions de bugs, et planifier la suite. Également, ce temps d&rsquo;échanges lui permet de me donner des conseils plus généraux par rapport au développement web, et les bonnes pratiques à adopter. </p>
+]]></content:encoded>
+					
+					<wfw:commentRss>https://hugolgs-dev.github.io/presentation-des-missions/feed/</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>

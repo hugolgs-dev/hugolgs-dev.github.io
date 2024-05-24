@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>hugolgs-portfolio &#8211; Hugo Lignères </title>
+	<atom:link href="https://hugolgs-dev.github.io/author/hugolgs-portfolio/feed/" rel="self" type="application/rss+xml" />
+	<link>https://hugolgs-dev.github.io</link>
+	<description></description>
+	<lastBuildDate>Fri, 24 May 2024 17:48:14 +0000</lastBuildDate>
+	<language>fr-FR</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=6.5.3</generator>
+	<item>
+		<title>Analyse du travail réalisé &#038; bilan personnel</title>
+		<link>https://hugolgs-dev.github.io/analyse-du-travail-realise-bilan-personnel/</link>
+		
+		<dc:creator><![CDATA[hugolgs-portfolio]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 23:30:05 +0000</pubDate>
+				<category><![CDATA[Rapport final]]></category>
+		<guid isPermaLink="false">https://hugolgs-dev.github.io/?p=243</guid>
+
+					<description><![CDATA[Résumé de l&#8217;expérience Ce stage de deux mois s’est découpé en deux parties. La première portait sur la refonte d’un site vitrine. Les missions de ce projet correspondaient à celles de développement frontend, comme l&#8217;intégration de maquettes dans la page web d’un site internet, le respect de l&#8217;ergonomie et de la lisibilité du site, et&#8230; <br> <a class="read-more" href="https://hugolgs-dev.github.io/analyse-du-travail-realise-bilan-personnel/">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<h2 class="wp-block-heading">Résumé de l&rsquo;expérience</h2>
+
+
+
+<p>Ce stage de deux mois s’est découpé en deux parties. La première portait sur la refonte d’un site vitrine. Les missions de ce projet correspondaient à celles de développement frontend, comme l&rsquo;intégration de maquettes dans la page web d’un site internet, le respect de l&rsquo;ergonomie et de la lisibilité du site, et la mise en place du responsive.</p>
+
+
+
+<p>La deuxième partie du stage se concentrait surtout sur le développement de fonctionnalités backend dans le contexte d’une application web de gestion d’évènements. L’idée était de rendre accessible, sur l’interface utilisateurs, des fonctionnalités déjà présentes dans le back-office et dans la base de données du site. Cela demandait également d’appliquer un maximum de sécurité pour s’assurer que de potentiels utilisateurs malveillants ne puissent casser l’application.</p>
+
+
+
+<h2 class="wp-block-heading">Liste des compétences développées</h2>
+
+
+
+<ul>
+<li><strong>Utilisation de GitHub en travail collaboratif</strong>&nbsp;: création et utilisation de branches de développement, en respectant une nomenclature fixée avec mon tuteur de stage. Cela m’a permis d’approfondir une bonne pratique du travail collaboratif à distance dans le domaine du développement, dans un cadre professionnel.</li>
+</ul>
+
+
+
+<ul>
+<li><strong>Utilisation d’un serveur de développement&nbsp;</strong>: Comme pour GitHub, travailler sur un serveur de développement en simultané avec un collaborateur m’a également appris à communiquer et travailler en équipe.</li>
+</ul>
+
+
+
+<ul>
+<li><strong>WordPress :</strong> J&rsquo;ai approfondi mes connaissances dans l&rsquo;éditeur de blocs Gutenberg. J&rsquo;ai également appris à créer un bloc customisé.</li>
+</ul>
+
+
+
+<ul>
+<li><strong>SPIP</strong> : J&rsquo;ai utilisé les fonctionnalités intégrées du CMS, telles que les boucles ou les critères, qui permettent de mettre en place du contenu facilement, de manière fiable et sécurisée.</li>
+</ul>
+
+
+
+<ul>
+<li><strong>La programmation avec SPIP</strong>&nbsp;: En plus des fonctionnalités de base de SPIP, j’ai eu l’occasion de m’initier aux fonctionnalités plus complexes proposées par le CMS.&nbsp; Également, j’ai pu apprendre à étudier et utiliser une documentation, pour répondre aux problématiques de programmation liées à mes missions.</li>
+</ul>
+
+
+
+<ul>
+<li><strong>Bases de données&nbsp;relationnelles SQL</strong>&nbsp;: Bien que j’ai eu plusieurs occasions de travailler avec MySQL durant ces deux années de formation, je n’avais pas encore eu à l’utiliser dans le cadre d’une application complexe. </li>
+</ul>
+
+
+
+<ul>
+<li><strong>PHP</strong>&nbsp;: J&rsquo;ai pu approfondir mes connaissances sur l&rsquo;utilisation de PHP pour communiquer et interagir avec une base de données dans le contexte d’une application web. Également, j&rsquo;ai eu à appliquer des méthodes de sécurité, comme l’échappement des chaînes de caractères et la validation des données transmises par exemple.</li>
+</ul>
+
+
+
+<ul>
+<li><strong>SCSS et Less</strong>: Je n’avais jamais réellement travaillé avec des préprocesseurs CSS auparavant. J’ai un peu appris Less durant l’année scolaire, mais pas assez pour avoir une expérience approfondie sur le sujet. En ayant travaillé avec les deux pendant un mois, j’ai pu découvrir et apprendre ces deux langages. Il est encore trop tôt pour savoir lequel des deux je préfère. Mais une chose est sûre, je ne pense pas me passer d’un préprocesseur CSS à l’avenir.</li>
+</ul>
+
+
+
+<ul>
+<li><strong>Bibliothèque javascript slick.js</strong> : Utiliser une bibliothèque javascript pour l&rsquo;adapter à un problème précis m&rsquo;a permis de me rendre compte que ce sont des outils aussi puissants que malléables. Cela a été également un gain de temps considérable. J&rsquo;aurais passé beaucoup plus de temps sur cette mission si j&rsquo;avais eu à créer le carousel en partant de zéro. Je pense que j&rsquo;aurais pu aboutir, mais en sacrifiant du temps pour d&rsquo;autres missions.</li>
+</ul>
+
+
+
+<h2 class="wp-block-heading">Apprentissages majeurs</h2>
+
+
+
+<p>Je retiens deux apprentissages majeurs après ces deux mois de stage. <br>Le premier est d’avoir appris à travailler sur une base de données, avec PHP, dans le cadre d’une application web complexe. <br>Le deuxième apprentissage est d’avoir appréhendé l’utilisation de deux CMS très différents, et de leurs outils de programmations spécifiques : l’API SQL de SPIP, et la construction de blocs customisés avec WordPress.</p>
+
+
+
+<h2 class="wp-block-heading">Difficultés et solutions</h2>
+
+
+
+<p>Les difficultés que j’ai ressenties étaient ponctuelles, sur certaines missions spécifiques. La première a été pendant la mise en place du bloc customisé sur WordPress. Cela a été un vrai travail de recherche pendant plusieurs jours. Nous avons décidé d’un commun accord avec mon tuteur de stage que je travaille en autonomie sur cette mission. Il m’a suggéré que c’était là une très bonne manière d’apprendre à apprendre. Bien entendu, il ne m’a pas laissé en échec, et je pouvais compter sur son aide dès que je restais bloqué trop longtemps.</p>
+
+
+
+<p>La deuxième difficulté importante a été d&rsquo;apprendre à utiliser l&rsquo;API SQL de SPIP. Bien que très puissante, exploiter son plein potentiel demande de très bien comprendre non seulement sa logique, mais aussi celle d&rsquo;une base de données relationnelles. Avoir eu à appréhender deux éléments en même temps a été très difficile pendant une bonne semaine, malgré l&rsquo;aide et la patience de mon tuteur. Cependant, après cette semaine compliqué, j&rsquo;ai réussi à être plus efficace.</p>
+
+
+
+<h2 class="wp-block-heading">Bilan personnel (conclusion)</h2>
+
+
+
+<p>Ce stage m’a permis de confirmer plusieurs éléments sur mon avenir professionnel.</p>
+
+
+
+<p>Le premier élément est qu’il est tout à fait possible de travailler efficacement en télétravail. Pour cela, j’ai remarqué qu’il fallait développer plusieurs habitudes. <br>La première, et c’est une composante importante dans toute relation, est la communication. Particulièrement lorsque deux personnes ou plus travaillent sur le même élément, par exemple sur un serveur de développement ou un dépôt GitHub. Il y a évidemment des bonnes pratiques à apprivoiser, comme créer une nouvelle branche sur le dépôt pour chaque personne et chaque fonctionnalité, le temps d’avancer sur la mission. <br>Une autre habitude à développer est de trouver un rythme de travail qui permet de rester concentré et efficace sur une journée. En effet, en moyenne, un développeur passe environ 4-5 heures à réellement coder dans une journée. J’ai pris ce chiffre en considération et adopté une méthode, celle de pomodoro, pour rester le plus proche possible des ces 4-5 heures d’efficacité. Le principe est de travailler en restant concentré et en enlevant toute distraction pendant une période courte, environ 25-30 minutes. Puis de faire une pause de 5-10 minutes à faire autre chose, et de repartir ensuite pour 25-30 minutes de travail. Cette méthode, bien que difficile à appliquer les premiers jours, m’a permis d’être efficace. Sur le temps qu’il me restait dans la journée de 7 heures, soit je finissais le bout de code sur lequel je travaillais si j’avais une bonne idée. Sinon, j’étudiais de la documentation ou je prenais des notes sur mon stage.</p>
+
+
+
+<p>Le deuxième élément est que cela a confirmé mon choix de carrière professionnelle. C’est très gratifiant de partir juste d’une simple idée pour combler un besoin, et arriver à un résultat fonctionnel.</p>
+
+
+
+<p>Pour finir, la troisième conclusion est que le travail dans une agence de taille petite ou moyenne me convient très bien. Dans le passé, j’ai pu faire un stage dans un grand groupe. Même si ça s&rsquo;est bien passé, je préfère très largement l&rsquo;ambiance de travail d&rsquo;une équipe à taille réduite. Cependant, je pense qu’un jour j’essaierai de travailler dans une entreprise avec un nombre d’employé élevé, pour voir si mon avis change sur la question.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Fonctionnalité n°2 &#8211; Suppression d&#8217;un collaborateur</title>
+		<link>https://hugolgs-dev.github.io/fonctionnalite-n2-suppression-dun-collaborateur/</link>
+		
+		<dc:creator><![CDATA[hugolgs-portfolio]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 23:29:11 +0000</pubDate>
+				<category><![CDATA[Rapport final]]></category>
+		<guid isPermaLink="false">https://hugolgs-dev.github.io/?p=241</guid>
+
+					<description><![CDATA[La suppression d’un collaborateur à un évènement reprend la même logique que celle de l’ajout d’un collaborateur. Sauf qu’ici, plutôt que de créer un lien dans la table spip_auteurs_liens, on en supprime un. Pour commencer, reprenons l’interface du tableau affichant les collaborateurs d’un évènement&#160;: Comme vous pouvez le voir sur la droite, il y a&#8230; <br> <a class="read-more" href="https://hugolgs-dev.github.io/fonctionnalite-n2-suppression-dun-collaborateur/">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>La suppression d’un collaborateur à un évènement reprend la même logique que celle de l’ajout d’un collaborateur. Sauf qu’ici, plutôt que de créer un lien dans la table <strong>spip_auteurs_liens</strong>, on en supprime un.</p>
+
+
+
+<p>Pour commencer, reprenons l’interface du tableau affichant les collaborateurs d’un évènement&nbsp;:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img fetchpriority="high" decoding="async" width="1024" height="274" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe-1024x274.jpg" alt="" class="wp-image-295" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe-1024x274.jpg 1024w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe-300x80.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe-768x205.jpg 768w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe-1536x411.jpg 1536w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe.jpg 1626w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+<p>Comme vous pouvez le voir sur la droite, il y a l’icône d’une corbeille.</p>
+
+
+
+<p>Vous remarquerez aussi que l’icône apparaît pour tous les collaborateurs, sauf pour le créateur. C’est une sécurité, afin de s’assurer que la personne responsable (il n’y en a qu’une), ne soit pas supprimée de l’évènement. Ou plutôt, qu’elle ne se supprime pas elle-même. Car oui, seul l’utilisateur avec le statut de créateur a accès à l’icône pour supprimer quelqu’un. Contrairement au bouton d’ajout de collaborateur, qui s’affiche pour tout le monde, l’icône de suppression ne s’affiche que pour le créateur.</p>
+
+
+
+<figure class="wp-block-image size-full"><img decoding="async" width="869" height="195" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_bouton.jpg" alt="[(#SESSION{id_auteur}|=={#GET{createur}}|?{ [(#ID_AUTEUR|!=={#GET{createur}}|?{ delete })] })]" class="wp-image-319" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_bouton.jpg 869w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_bouton-300x67.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_bouton-768x172.jpg 768w" sizes="(max-width: 869px) 100vw, 869px" /></figure>
+
+
+
+<p>Cette sécurité est mise en place grâce au double filtre <strong>[(#SESSION{id_auteur}|=={#GET{createur}}|?{ [(#ID_AUTEUR|!=={#GET{createur}}|?{ })] })]</strong>. Le principe de ce filtre est le suivant&nbsp;:</p>
+
+
+
+<p><strong>[(#SESSION{id_auteur}|=={#GET{createur}}|?{ &#8230; })]</strong> : Dans un premier temps, on vérifie que l’utilisateur connecté est bien le créateur. Dans ce cas là, on peut afficher l’icône de corbeille. Mais ensuite, pour chaque itération de l’affichage, on regarde si le statut de l’utilisateur pour chaque ligne est « collaborateur » et pas « créateur ». Si c’est bien « collaborateur », alors on affiche l’icône. Sinon, cela signifie qu’il s’agit du créateur. On ne peut donc pas afficher l’icône de suppression. Cette deuxième vérification se fait grâce à <strong>[(#ID_AUTEUR|!=={#GET{createur}}|?{ &#8230; })]</strong>.</p>
+
+
+
+<p>Maintenant, intéressons-nous au bouton ouvrant le panneau d’informations qui affiche le formulaire de suppression. Ce panneau se situe dans le répertoire <strong>infos/</strong>, donc le chemin pour y accéder est <strong>infos/collaborateur_supprimer</strong>. Là aussi, il faut reprendre le nom du formulaire. Ce bouton est similaire au bouton qui permet d’afficher le formulaire d’ajout d’un collaborateur. Cependant, il contient un deuxième attribut&nbsp;:&nbsp;<strong>data-objet=’’#EMAIL’</strong>’. Celui-ci est obligatoire, car l’utilisateur ne doit pas avoir à saisir l’e-mail qu’il souhaite supprimer. Déjà, pour éviter toute potentielle erreur. Et aussi, histoire de gagner du temps. Pour cela, le code effectue cette transmission de donnée automatique. On utilise la variable d’environnement&nbsp;<strong>#EMAIL</strong>, qui contient donc la valeur de l’e-mail lié à l’utilisateur que l’on souhaite supprimer.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img decoding="async" width="510" height="214" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_infos.jpg" alt="Supprimer le collaborateur #FORMULAIRE_COLLABORATEUR_SUPPRIMER{#EMAIL} Nous n'avons pas trouvé le collaborateur demandé." class="wp-image-322" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_infos.jpg 510w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_infos-300x126.jpg 300w" sizes="(max-width: 510px) 100vw, 510px" /></figure></div>
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="347" height="252" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_suppr_collab.jpg" alt="" class="wp-image-298" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_suppr_collab.jpg 347w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_suppr_collab-300x218.jpg 300w" sizes="(max-width: 347px) 100vw, 347px" /></figure></div>
+
+
+<p>Lorsque l’on clique sur le bouton, le panneau d’informations s’ouvre sur la droite, et ce dernier affiche un formulaire, grâce à la balise <strong>#FORMULAIRE_COLLABORATEUR_SUPPRIMER{#EMAIL}</strong>. Ici, on ajoute le critère <strong>{#EMAIL}</strong>, car on souhaite transmettre la variable d’environnement <strong>#EMAIL</strong>. Il est donc nécessaire de renseigner cette dernière, pour s’assurer qu’elle arrive bien jusqu’au fichier .php du formulaire.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="673" height="664" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_formulaire_html.jpg" alt="[(#ENV*{message_erreur})] #ACTION_FORMULAIRE{#ENV{action}} Êtes-vous sûr de vouloir supprimer [(#NOM|strtolower)] ? Annuler [(#ENV*{message_ok})] [(#REM) On ferme le panneau et on reload le tableau de bord]" class="wp-image-321" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_formulaire_html.jpg 673w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_formulaire_html-300x296.jpg 300w" sizes="(max-width: 673px) 100vw, 673px" /></figure></div>
+
+
+<p>Concernant la structure HTML du formulaire, il ne contient que deux boutons : un pour annuler l’opération, et un autre pour lancer l’opération. Vous remarquerez que le code de ce formulaire est très similaire à celui pour ajouter un collaborateur, si ce n’est qu’il n’y a pas de champs de saisie.</p>
+
+
+
+<p>Comme je l’ai indiqué au début de cette partie, le fonctionnement de ce formulaire est très similaire à celui mis en place pour ajouter un collaborateur. Je vais donc surtout aborder les éléments qui ne sont pas présents dans le premier formulaire.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="531" height="211" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_charger.jpg" alt="/* Sécurité de SPIP */ if (!defined(&quot;_ECRIRE_INC_VERSION&quot;)) return; function formulaires_collaborateur_supprimer_charger($email){ $valeurs['email']=$email; /* Retour */ return $valeurs; }" class="wp-image-320" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_charger.jpg 531w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_charger-300x119.jpg 300w" sizes="(max-width: 531px) 100vw, 531px" /></figure></div>
+
+
+<p>Voici donc la première partie du fichier .php du formulaire, la fonction <strong>charger()</strong>. Ici, on doit passer <strong>$email</strong> en argument de la fonction, puisqu&rsquo;on a dû la transmettre au préalable avec la variable d’environnement #EMAIL dans les différents fichiers. Ceci permet donc de prendre la valeur de cette variable et de pouvoir l’utiliser dans la fonction. Ensuite, on range la valeur de cette variable dans le tableau associatif <strong>$valeurs</strong>, avec la clé <strong>[‘email’]</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="580" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_verifier-1024x580.jpg" alt="function formulaires_collaborateur_supprimer_verifier(){ /* Tableau d'erreurs par défaut */ $erreurs = array(); /* Vérifier format/syntaxe email */ $email = _request('email'); if(filter_var($email, FILTER_VALIDATE_EMAIL)){} else { $erreurs['email'] = 'E-mail non valide'; } /* Vérifier utilisateur lié à l'espace */ /* on récupère les infos sur l'espace en cours */ $espace = new Espace(); /* on récupère l'id auteur qui correspond à l'email fourni dans $email */ $auteurs = sql_select('*', 'spip_auteurs', 'email=&quot;'.$email.'&quot;'); $auteur = sql_fetch($auteurs); if ($auteur_liens = sql_select('*', 'spip_auteurs_liens','objet=&quot;espace&quot; AND id_objet='.$espace-&gt;infos['id_espace'].' AND id_auteur='.$auteur['id_auteur'])) { $n = sql_count($auteur_liens); if($n == 0){$erreurs['email'] = 'E-mail non valide';} } /* On vérifie que l'utilisateur connecté est bien le créateur de l'évènement */ if(!$espace-&gt;infos['id_auteur'] == $GLOBALS['visiteur_session']['id_auteur']){ $erreurs['id_auteur'] = 'Accès interdit'; } /* On vérifie que l'utilisateur que l'on souhaite supprimer n'est pas le créateur de l'évènement*/ if($espace-&gt;infos['id_auteur'] == $auteur['id_auteur']){ $erreurs['message_erreur'] = 'Opération non autorisée'; } /* Si il y a des erreurs */ if (count($erreurs)) $erreurs['message_erreur'] = 'Votre saisie contient des erreurs !'; return $erreurs; }" class="wp-image-324" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_verifier-1024x580.jpg 1024w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_verifier-300x170.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_verifier-768x435.jpg 768w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_verifier.jpg 1316w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+<p>Maintenant, c’est au tour de la fonction <strong>vérifier()</strong>. Là aussi, après avoir nettoyé la chaîne de caractère de l’e-mail, on regarde si le format est valide. Si ce test est passé, on initialise la variable <strong>$espace</strong> qui crée un nouvel objet <strong>Espace()</strong>. Ensuite, on peut procéder à la première étape importante. Durant celle-ci, grâce à la fonction <strong>sql_select()</strong>, on regarde quelle est la valeur de <strong>id_auteur</strong> associé à l’e-mail renseigné. Ensuite, on range ce résultat dans le tableau associatif <strong>$auteur</strong>.</p>
+
+
+
+<p>La prochaine étape est de vérifier qu’il existe bel et bien un lien entre l’auteur et l’évènement (lignes 33 à 35). Dans la fonction <strong>sql_select()</strong>, on sélectionne, dans la table <strong>spip_auteur_liens</strong>, l’auteur dont la valeur d&rsquo;<strong>id_auteur</strong> a été récupérée plus haut, ainsi que l’ID de l’espace dans lequel on se trouve. Ensuite, on regarde ligne 35 si <strong>$auteur_liens</strong> retourne au moins une valeur. C’est-à-dire si une correspondance a bien été trouvée. Si ce n’est pas le cas, cela signifie que l’auteur sélectionné n’est pas présent dans l’espace. Sinon, on peut passer à la prochaine vérification.</p>
+
+
+
+<p>Ici, on regarde si l’utilisateur qui procède à l’opération est bien le créateur de l’évènement. Pour cela, on regarde si la valeur d’<strong>id_auteur</strong> de l’espace (donc le créateur de celui-ci) est égale à l’<strong>id_auteur</strong> de l’utilisateur connecté, avec la clé <strong>[‘visiteur_session’]</strong> du tableau <strong>$GLOBALS</strong>. Si ce n’est pas le cas, alors l’opération ne peut aboutir.</p>
+
+
+
+<p>Enfin, on vérifie que l’utilisateur sélectionné n’est pas le créateur de l’évènement. Ici, on compare simplement l’<strong>id_auteur</strong> lié à l’espace, avec l’<strong>id_auteur</strong> lié à l’e-mail renseigné.</p>
+
+
+
+<p>On pourrait penser que toutes ces vérifications sont facultatives, étant donné qu’elles ont déjà été faites dans le fichier HTML du formulaire. Mais il ne faut pas oublier que la vérification des données est la partie la plus importante de n’importe quelle opération sur une base de données. Une deuxième vérification est donc primordiale, car il faut partir du principe que l’utilisateur est malveillant et qu’il cherche à modifier les données pour casser le système en place.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img loading="lazy" decoding="async" width="1024" height="318" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_traiter-1024x318.jpg" alt="function formulaires_collaborateur_supprimer_traiter(){ $espace = new Espace(); $email = _request('email'); /* Récupérer l'id de l'auteur par rapport à son email dans spip_auteurs */ if ($auteurs = sql_select('*', 'spip_auteurs', 'email=&quot;'.$email.'&quot;')) { while ($auteur = sql_fetch($auteurs)) { /* Supprimer la liaison entre l'auteur trouvé et l'espace */ sql_delete('spip_auteurs_liens', 'id_auteur='.$auteur['id_auteur'].' AND id_objet='.$espace-&gt;infos['id_espace'].' AND objet=&quot;espace&quot;'); if ($auteur_liens = sql_select('*', 'spip_auteurs_liens','objet=&quot;espace&quot; AND id_objet='.$espace-&gt;infos['id_espace'].' AND id_auteur='.$auteur['id_auteur'])) { $n = sql_count($auteur_liens); /* On regarde si il existe toujours au moins une valeur */ if($n &gt; 0){return array('message_erreur'=&gt;'Une erreur s\'est produite');} /* Sinon tout va bien */ else{ return array('message_ok'=&gt;'Accès supprimé'); } } } } else{ return array('message_erreur'=&gt;'Une erreur s\'est produite'); } }" class="wp-image-323" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_traiter-1024x318.jpg 1024w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_traiter-300x93.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_traiter-768x239.jpg 768w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_suppr_traiter.jpg 1370w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure></div>
+
+
+<p>Nous voici donc à la dernière partie du fichier .php, le traitement de l’opération.</p>
+
+
+
+<p>On commence par initialiser<strong> $espace</strong> et récupérer la valeur de <strong>$email</strong>. Ensuite, on sélectionne la valeur de <strong>id_auteur</strong> liée à la valeur de l’e-mail, égale à la valeur de la variable <strong>$email</strong>, dans la table <strong>spip_auteurs</strong>. On range ensuite la valeur de cet ID trouvé&nbsp;dans le tableau <strong>$auteur</strong>, grâce à la fonction <strong>sql_fetch()</strong>. Maintenant que c’est fait, on peut procéder à la suppression du lien entre l’auteur et l’espace.</p>
+
+
+
+<p>Cette fois-ci, on utilise la fonction sql_delete(). La table sélectionnée est <strong>spip_auteurs_liens</strong>. On sélectionne l’entrée où :</p>
+
+
+
+<ul>
+<li>La valeur de <strong>id_auteur</strong> correspond à la valeur de l’auteur trouvé, renseignée dans <strong>$auteur</strong>&nbsp;;</li>
+
+
+
+<li>La valeur de <strong>id_espace</strong> correspond à la valeur de l’espace dans lequel on se trouve.</li>
+</ul>
+
+
+
+<p>Ensuite, on regarde s’il existe toujours une entrée où le lien entre l’auteur et l’espace existe toujours. Si c’est le cas, cela signifie qu’une erreur est survenue pendant l’opération. On demande donc à l’utilisateur de recommencer l’opération.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Fonctionnalité n°1 &#8211; Ajout d&#8217;un collaborateur</title>
+		<link>https://hugolgs-dev.github.io/fonctionnalite-n1-ajout-dun-collaborateur/</link>
+		
+		<dc:creator><![CDATA[hugolgs-portfolio]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 23:28:23 +0000</pubDate>
+				<category><![CDATA[Rapport final]]></category>
+		<guid isPermaLink="false">https://hugolgs-dev.github.io/?p=239</guid>
+
+					<description><![CDATA[Le but de cette fonctionnalité est d’ajouter un utilisateur, présent dans la base de données, à un espace. Pour se faire, dans la table spip_auteurs_liens, on crée un lien entre l’auteur choisi et l’espace concerné, tous les deux via leur ID respectif. Voyons maintenant, étape par étape, comment mettre en place cette fonctionnalité. Tout d’abord, il&#8230; <br> <a class="read-more" href="https://hugolgs-dev.github.io/fonctionnalite-n1-ajout-dun-collaborateur/">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>Le but de cette fonctionnalité est d’ajouter un utilisateur, présent dans la base de données, à un espace. Pour se faire, dans la table <strong>spip_auteurs_liens</strong>, on crée un lien entre l’auteur choisi et l’espace concerné, tous les deux via leur ID respectif. Voyons maintenant, étape par étape, comment mettre en place cette fonctionnalité.</p>
+
+
+
+<p>Tout d’abord, il faut évidemment créer un bouton pour ouvrir le panneau d’infos. Ce bouton se situe sous le tableau de l’onglet <strong>equipe</strong>. C’est donc dans le fichier <strong>ajax/equipe.html</strong> que nous incluons le code du bouton, à la suite du tableau :</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="670" height="118" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_bouton_ajouter.jpg" alt="add Ajouter un collaborateur" class="wp-image-311" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_bouton_ajouter.jpg 670w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_bouton_ajouter-300x53.jpg 300w" sizes="(max-width: 670px) 100vw, 670px" /></figure></div>
+
+
+<p>Il s’agit là d’un simple lien qui redirige vers le panneau d’informations, là où s’affichera le formulaire. Ce lien se fait grâce à l’attribut <strong>data-infos=’’collaborateur_ajouter</strong>« . Cet attribut renseigne quel fichier dans le répertoire <strong>infos/</strong> il faut ouvrir.</p>
+
+
+
+<p>C’est ensuite ce fichier qui prend le relais. Il affiche le contenu du panneau d’informations sur la droite de l’écran. Ici, il faut uniquement afficher le contenu HTML du formulaire, c’est-à-dire le fichier <strong>collaborateur_ajouter.htm</strong>l situé dans le répertoire <strong>formulaires/</strong> . Là aussi, SPIP facilite le lien entre ces deux fichiers, à condition de respecter une nomenclature indiquée par SPIP. Ici, c’est la balise <strong>#FORMULAIRE_COLLABORATEUR_AJOUTER</strong> qui permet d’afficher le formulaire sur le panneau d’informations.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="333" height="106" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_infos_ajouter.jpg" alt="Ajouter un collaborateur #FORMULAIRE_COLLABORATEUR_AJOUTER" class="wp-image-325" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_infos_ajouter.jpg 333w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_infos_ajouter-300x95.jpg 300w" sizes="(max-width: 333px) 100vw, 333px" /></figure></div>
+
+
+<p>Maintenant, comment génère-t-on un formulaire avec SPIP ? Regardons le code suivant, qui gère la structure HTML du formulaire <strong>collaborateur_ajouter</strong>.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="873" height="848" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter__html.jpg" alt="[(#ENV*{message_erreur})] #ACTION_FORMULAIRE{#ENV{action}} Veuillez renseigner ces informations pour ajouter le collaborateur : [(#SAISIE{input, email, label=E-mail, obligatoire=oui})] Annuler [(#ENV*{message_ok})] [(#REM) On ferme le panneau et on reload le tableau de bord]" class="wp-image-313" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter__html.jpg 873w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter__html-300x291.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter__html-768x746.jpg 768w" sizes="(max-width: 873px) 100vw, 873px" /></figure>
+
+
+
+<p>Dans un premier temps, nous avons la balise &lt;div> qui englobe le formulaire. Les deux premières classes, f<strong>ormulaire_spip</strong> et <strong>formulaire_collaborateur_ajouter</strong> sont obligatoires pour montrer à SPIP que ce morceau de code correspond à un formulaire. La classe <strong>ajax</strong> indique à SPIP d’utiliser AJAX afin de charger le formulaire sans devoir recharger toute la page.</p>
+
+
+
+<p>Ensuite, l’attribut <strong>action=’’#ENV{action}’</strong>’ et la balise  <strong>#ACTION_FORMULAIRE{#ENV{action}}</strong> sont obligatoires pour permettre au bon fonctionnement du formulaire. De plus, la balise permet d’ajouter des clés de sécurité, vérifiées automatiquement lors de l’envoi du formulaire (en plus de la fonction <strong>verifier() </strong>dans le fichier .php du formulaire).</p>
+
+
+
+<p>Vient maintenant le contenu du formulaire. Il n’y a pas vraiment de différences par rapport à un formulaire fait avec HTML vanilla, si ce n’est la ligne 13. La balise<strong> [(#SAISIE{input, email, label=E-mail, obligatoire=oui})]</strong> provient du plug-in <strong>Saisies du formulaire</strong>, pour faciliter la création d’un formulaire avec SPIP. La balise <strong>#SAISIE </strong>contient plusieurs arguments&nbsp;:</p>
+
+
+
+<ul>
+<li><strong>input</strong> pour spécifier le type de champ&nbsp;;</li>
+
+
+
+<li><strong>email</strong> pour indiquer que ce champ est fait pour accueillir la saisie d’une adresse email&nbsp;;</li>
+
+
+
+<li><strong>label=E-mail</strong> correspond au nom donné au champ, qui apparaîtra au-dessus du champ de saisi&nbsp;;</li>
+
+
+
+<li><strong>obligatoire</strong> indique à l’utilisateur que ce champ doit être obligatoirement rempli pour envoyer le formulaire. Ce dernier apparaîtra au même niveau que le label.</li>
+</ul>
+
+
+
+<p>Au niveau de la ligne 26, nous avons <strong>[&lt;p class= »reponse »&gt;(#ENV*{message_ok})&lt;/p&gt;]</strong>. Cette ligne correspond à l’affichage d’un message de retour dans le cas où l’envoi du formulaire a réussi. Les crochets entourant le code signifient qu’il s’agit là d’un affichage conditionnel. C’est-à-dire que, si on est dans le cas où la variable d’environnement <strong>message_ok</strong> ne retourne rien, alors cette ligne ne s’affiche pas.</p>
+
+
+
+<p>À présent, passons à la dernière étape&nbsp;: le traitement du formulaire, qui s’effectue dans le fichier <strong>collaborateur_ajouter.php</strong>. Comme on l’a vu précédemment, ce fichier est découpé en trois fonctions&nbsp;: <strong>charger()</strong>,&nbsp;<strong>vérifier()</strong> et <strong>traiter()</strong>.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="471" height="196" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_charger.jpg" alt="" class="wp-image-314" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_charger.jpg 471w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_charger-300x125.jpg 300w" sizes="(max-width: 471px) 100vw, 471px" /></figure></div>
+
+
+<p>Avant toute chose, il faut s’intéresser à la ligne 2 :&nbsp;<strong>if (!defined(‘’_ECRIRE_INC_VERSION’’)) return</strong>. À travers la constante <strong>_ECRIRE_INC_VERSION</strong> et la vérification de cette dernière, on s’assure que le fichier est protégé des accès directs non autorisés, donc de potentielles modifications non autorisées de la part d’utilisateurs mal intentionnés.</p>
+
+
+
+<p>Pour commencer, on charge les données transmises par le formulaire, que l’on range dans un tableau associatif <strong>$valeurs()</strong>. On défini ensuite les clés qui vont permettre d’accéder aux données transmises par le formulaire, que l’on range dans des variables.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="857" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_verifier-1024x857.jpg" alt="function formulaires_collaborateur_ajouter_verifier() { /* Tableau d'erreurs par défaut */ $erreurs = array(); /* Mise en forme de la saisie */ $email = trim(strtolower(_request('email'))); /* On vérifie le format de l'email */ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) { $erreurs['email'] = 'Format d\'E-mail non valide'; } else { $auteurs = sql_select('*', 'spip_auteurs', 'email=&quot;'.$email.'&quot;'); $auteur = sql_fetch($auteurs); /* On regarde si &quot;$auteur['email']&quot; existe bien &amp; si l'utilisateur est déjà présent dans la base de données ou non*/ if (isset($auteur['email']) &amp;&amp; $auteur['email'] == $email) { $espace = new Espace(); /* On regarde si $espace-&gt;infos['id_espace'] est bien défini*/ if (isset($espace-&gt;infos) &amp;&amp; isset($espace-&gt;infos['id_espace'])) { /* On regarde maintenant si l'utilisateur est déjà présent dans l'espace */ if ($presences = sql_select('*', 'spip_auteurs_liens', 'id_auteur='.$auteur['id_auteur'].' AND id_objet='.$espace-&gt;infos['id_espace'].' AND objet=&quot;espace&quot;')) { $presence = sql_fetch($presences); if ($presence) { $erreurs['email'] = 'L\'utilisateur est déjà présent dans l\'espace.'; } } } else { $erreurs['message_erreur'] = 'L\'identifiant de l\'espace n\'est pas défini.'; } } else { //$erreurs['email'] = 'L\'utilisateur n\'est pas déjà présent dans la bdd'; set_request('compte_temp', 'oui'); } } /* Si il y a des erreurs */ if (count($erreurs)) { $erreurs['message_erreur'] = 'Votre saisie contient des erreurs !'; } return $erreurs; }" class="wp-image-318" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_verifier-1024x857.jpg 1024w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_verifier-300x251.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_verifier-768x642.jpg 768w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_verifier.jpg 1028w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>La fonction <strong>verifier()</strong> est la partie la plus importante du processus. En effet, étant donné que la fonction <strong>traiter()</strong> interagit avec les données de la base,&nbsp;il est crucial de s’assurer que ces données ne sont pas corrompues. On passe donc par plusieurs étapes de tests. <br>La première est plutôt simple. Il s’agit de s’assurer que la donnée transmise via le champ <strong>email </strong>soit bien au format d’un e-mail. Pour cela, on utilise <strong>FILTER_VALIDATE_EMAIL</strong>, un filtre de validation pré-défini en PHP qui permet de vérifier que la chaîne de caractères est bien au format d&rsquo;un e-mail. Comme <strong>filter_var()</strong> est précédée d’un&nbsp;<strong>!</strong>, l’idée est de regarder si le résultat retourné est<strong> false</strong> ou non. Si c’est le cas, alors le processus s’arrête ici. Sinon, on sélectionne, via la fonction <strong>sql_select()</strong> de l’API, l’entrée dans la table <strong>spip_auteurs</strong> où la valeur de l’e-mail correspond à celle indiqué dans le champ du formulaire. Ensuite, on utilise la fonction <strong>sql_fetch()</strong>. Celle-ci prend les données sélectionnées avec <strong>sql_select()</strong>, et les range dans un tableau associatif. Le but est d’ensuite regarder l’<strong>id_auteur</strong> correspondant à cet <strong>email</strong>, toujours dans la table <strong>spip_auteur</strong>, et de s’en servir pour créer le lien entre l’auteur et l’espace. <br>L’étape suivante est de regarder si l’auteur lié à l’e-mail est présent ou non dans la base de données. Si ce n’est pas le cas, on change la valeur de <strong>$valeurs[‘compte_temp’]</strong> en <strong>&lsquo;oui&rsquo;</strong>. Ceci nous servira plus tard pour la création d’un compte temporaire. Dans le cas où l’utilisateur est présent dans la base de données, on crée un nouvel objet <strong>Espace()</strong>, rangé dans la variable <strong>$espace</strong>. <br>On procède à une autre vérification, cette fois-ci pour s’assurer que les variables&nbsp;liées à l’espace, que nous allons utiliser par la suite, sont bien définies. <br>Vient maintenant la dernière étape de la fonction <strong>verifier()</strong>. On utilise encore une fois la fonction <strong>sql_select()</strong>. Cette fois-ci, on utilise la table <strong>spip_auteurs_liens</strong>. Celle-ci regroupe les utilisateurs qui sont liés aux différents espaces de la base de données. Les liens se font grâce à la liaison entre l’ID de l’auteur (<strong>id_auteur</strong> dans <strong>spip_auteurs</strong>) et l’ID de l’espace (<strong>id_espace</strong> dans <strong>spip_espaces</strong>). Le but ici est de regarder si l’ID de l’auteur, fourni grâce à l’e-mail, est déjà lié à l’espace, grâce à son ID rangé dans <strong>$espace</strong>. Si une correspondance est trouvée, alors cela signifie que l’auteur est déjà lié à l’espace. Dans ce cas-là, la fonction s’arrête et renvoie un message d’erreur.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="713" height="440" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_data.jpg" alt="function formulaires_collaborateur_ajouter_traiter(){ $espace = new Espace(); $email = trim(strtolower(_request('email'))); /* On récupère la valeur de $valeurs['compte_temp'] : soit 'oui' , soit 'non'*/ $compte_temp = _request('compte_temp'); var_dump($compte_temp); if($compte_temp == 'oui'){ $auteur = array( 'email' =&gt; $email, 'nom' =&gt; 'TBD', 'statut' =&gt; '3temp' ); $id_auteur = sql_insertq('spip_auteurs', $auteur); if ($id_auteur) { $auteur['id_auteur'] = $id_auteur; } } else{ $auteurs = sql_select('*', 'spip_auteurs', 'email=&quot;'.$email.'&quot;'); $auteur = sql_fetch($auteurs); }" class="wp-image-315" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_data.jpg 713w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_data-300x185.jpg 300w" sizes="(max-width: 713px) 100vw, 713px" /></figure></div>
+
+
+<p>Une fois la fonction <strong>verifier() </strong>passée avec succès, on peut procéder au traitement du formulaire. La première étape est donc de charger les données qui vont être traitées ou servir au traitement, puis de les ranger dans des variables. Pour <strong>$email</strong>, la combinaison <strong>trim(strtolower())</strong> permet de nettoyer et normaliser la chaine de caractère, ici l’e-mail renseigné. <strong>Trim()</strong> nettoie la chaîne de caractère en supprimant les éventuels espaces, et <strong>strtolower()</strong> uniformise la chaîne de caractère, en passant toutes les lettres en minuscules. Ceci permet de s’assurer de la cohérence des données.</p>
+
+
+
+<p>Ensuite, si un compte temporaire doit être crée, on le crée dans un tableau associatif <strong>$auteur</strong>, en renseignant les champs importants de la table <strong>spip_auteurs</strong>. À noter que la clé primaire <strong>id_auteur</strong> n’a pas besoin d’être renseignée, car elle s’auto-incrémente à mesure que de nouvelles entrées sont ajoutées. On crée ensuite une nouvelle entrée dans la table <strong>spip_auteurs</strong>, en fournissant les données renseignées dans <strong>$auteur</strong>. On doit faire cela car, comme l’utilisateur n’est pas présent dans la base de données, on ne pourra pas utiliser des données qui n’existent pas. C’est pour cela que nous devons les ajouter, grâce à la fonction <strong>sql_insert()</strong>. C’est ce qui se passe lignes 75 &amp; 76. Comme les données de l’auteur existent, notamment son ID, alors on peut à présent le ranger dans le tableau associatif <strong>$auteur</strong>. Si nous n’avons pas eu besoin de créer un compte temporaire, alors on prend la valeur de l’e-mail pour regarder quel ID est lié à cet e-mail. Puis on range la valeur trouvée de<strong> id_auteur</strong> dans le tableau associatif <strong>$auteur</strong>. Dans les deux cas, le résultat est le même. Mais dans le premier, nous avons dû ajouter une étape supplémentaire, pour être sûr de ne pas travailler avec des données qui n’existent pas.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="821" height="349" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_insertion.jpg" alt="/* On vérifie que les variables existent bien */ if (isset($auteur['email']) &amp;&amp; isset($espace-&gt;infos) &amp;&amp; isset($espace-&gt;infos['id_espace'])) { /* Insertion collaborateur dans spip_auteurs_liens */ /* Tableau des données à insérer */ $data_lien = array( 'id_auteur' =&gt; $auteur['id_auteur'], 'id_objet' =&gt; $espace-&gt;infos['id_espace'], 'objet' =&gt; 'espace', 'vu' =&gt; 'non', 'niveau' =&gt; 'utilisateur' ); $insertion = sql_insertq(&quot;spip_auteurs_liens&quot;, $data_lien);" class="wp-image-317" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_insertion.jpg 821w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_insertion-300x128.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_insertion-768x326.jpg 768w" sizes="(max-width: 821px) 100vw, 821px" /></figure></div>
+
+
+<p>L’étape suivante est donc d’insérer les différentes données dans la table <strong>spip_auteurs_liens</strong>, afin de créer le lien entre l’espace et l’auteur, et donc d’ajouter ce dernier à l’évènement. Pour cela, on crée le tableau associatif <strong>$data_lien</strong>. Comme pour le tableau associatif <strong>$auteur</strong> lorsque l’on crée un compte temporaire, on y renseigne les données que l’on souhaite intégrer à la table. Il y a deux façons de renseigner les données dans ce tableau. La première est simplement d’écrire la valeur fixe. C’est le cas pour ‘objet’, ‘vu’ et ‘niveau’. Comme les valeurs de ces colonnes seront les mêmes pour chaque utilisateur ajouté, on peut s’autoriser à procéder ainsi. Par contre, lorsque les données sont dynamiques, comme l’ID de l’auteur et de l’espace, alors on doit utiliser les variables que nous avons défini plus tôt dans la fonction <strong>traiter()</strong>.</p>
+
+
+
+<figure class="wp-block-image size-full"><img loading="lazy" decoding="async" width="843" height="595" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_email.jpg" alt="/* On vérifie que l'opération a bien fonctionnée */ if ($insertion !== false) { return array('message_ok'=&gt;'Collaborateur ajouté. Un email a été envoyé.'); /* Si l'opération a réussie, on prévient l'utilisateur ajouté via l'envoi d'un email */ /* Construction du mail */ $data=array(); $data['from']['email'] = &quot;notifications@balao.app&quot;; $data['from']['name'] = $espace-&gt;infos['nom']; $data['to']['email'] = strtolower( $email); $data['to']['name'] = ucfirst(strtolower($auteur['nom'])); /* Corps du mail */ $mail = modele_recuperer(&quot;ajout_utilisateur_espace&quot;, array( &quot;prenom&quot; =&gt; ucfirst(strtolower($auteur['nom'])), &quot;evenement&quot; =&gt; $espace-&gt;infos['nom'] )); $data['subject'] = $mail['sujet']; $data['text'] = $mail['texte']; $html_header = recuperer_fond('emails/inc-haut'); $html_footer = recuperer_fond('emails/inc-bas'); $html_body = $mail['body']; $data['html'] = $html_header.&quot;&quot;.$html_body.&quot;&quot;.$html_footer; /* Envoi du mail */ envoyer_mail($data); } else { return array('message_erreur'=&gt;'Une erreur s\'est produite lors de l\'insertion.'); }" class="wp-image-316" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_email.jpg 843w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_email-300x212.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajouter_email-768x542.jpg 768w" sizes="(max-width: 843px) 100vw, 843px" /></figure>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="792" height="231" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajout_modele_mail.jpg" alt="modele_mail(array( &quot;identifiant&quot;=&gt;&quot;ajout_utilisateur_espace&quot;, &quot;sujet&quot;=&gt;&quot;Nouvel espace&quot;, &quot;texte&quot;=&gt;&quot;Bonjour , Vous venez d'être ajouté à un nouvel évènement : . Bienvenue!&quot;, &quot;html&quot;=&gt;&quot;Bonjour , Vous venez d'être ajouté à un nouvel évènement : . Bienvenue! &quot; ));" class="wp-image-312" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajout_modele_mail.jpg 792w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajout_modele_mail-300x88.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/code_collab_ajout_modele_mail-768x224.jpg 768w" sizes="(max-width: 792px) 100vw, 792px" /></figure></div>
+
+
+<p>Vient enfin la dernière étape&nbsp;: envoyer un e-mail pour prévenir l’utilisateur de son ajout à l’évènement. Tout d’abord, on vérifie que l’insertion des données, c’est-à-dire l’ajout de l’utilisateur, a été un succès. Si c’est le cas, alors on commence par construire le mail. Pour cela, on initialise un tableau <strong>data()</strong> qui va regrouper le contenu textuel du mail, à commencer par l’expéditeur et le destinataire du mail. Pour cela, on réutilise les informations précédemment stockées dans des variables. Ensuite, on charge le contenu du mail à l’aide de la fonction <strong>modele_recuperer()</strong>. Cette fonction va charger le mail avec l’identifiant indiqué, qui est rangé dans le tableau associatif de la fonction <strong>modele_mail()</strong>, elle-même présente dans le fichier <strong>balao_cloud_mails.php</strong>. Pour finir, on s’occupe de charger le HTML du mail. Enfin, on envoie le mail.</p>
+
+
+
+<p>Je tiens à préciser que je n’ai pas réussi à mettre en place la toute dernière opération, celle de créer un compte temporaire et de l’ajouter. Cela n’a pas pu aboutir faute de temps.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Présentation de l&#8217;API SQL de SPIP</title>
+		<link>https://hugolgs-dev.github.io/presentation-de-lapi-sql-de-spip/</link>
+		
+		<dc:creator><![CDATA[hugolgs-portfolio]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 23:27:09 +0000</pubDate>
+				<category><![CDATA[Rapport final]]></category>
+		<guid isPermaLink="false">https://hugolgs-dev.github.io/?p=237</guid>
+
+					<description><![CDATA[SPIP propose une API qui permet de faciliter la manipulation des données stockées dans une base depuis les fichiers de code d’un projet. Ce sont un ensemble de fonctions sql_() qui permettent de traduire le code PHP en des requêtes SQL. La façon d’écrire une fonction sql_() est très proche de l’écriture d’une requête SQL.&#8230; <br> <a class="read-more" href="https://hugolgs-dev.github.io/presentation-de-lapi-sql-de-spip/">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>SPIP propose une <a href="https://programmer.spip.net/-API-SQL-" target="_blank" data-type="link" data-id="https://programmer.spip.net/-API-SQL-" rel="noopener">API</a> qui permet de faciliter la manipulation des données stockées dans une base depuis les fichiers de code d’un projet. Ce sont un ensemble de fonctions <strong>sql_()</strong> qui permettent de traduire le code PHP en des requêtes SQL. La façon d’écrire une fonction <strong>sql_() </strong>est très proche de l’écriture d’une requête SQL.</p>
+
+
+
+<p>Prenons l’exemple d’une requête SQL simple, par exemple pour sélectionner une colonne nommée « colonne_exemple », dans une table nommée « table_exemple ». Cette requête s’écrit donc <strong>SELECT colonne_exemple FROM table_exemple</strong>. La fonction correspondante à une requête de sélection dans l’API est la fonction <strong>sql_select()</strong>. Cette fonction dispose de 9 arguments, dont les 2 premiers qui sont obligatoires : <strong>$select</strong>, <strong>$from</strong>, <strong>$where</strong>, <strong>$groupby</strong>, <strong>$orderby</strong>, <strong>$limit</strong>, <strong>$having</strong>, <strong>$limit</strong>, <strong>$serveur</strong> et <strong>$option</strong>. Vous l’auriez remarqué, la fonction reprend comme arguments les mots-clés d’une requête SQL, tels que <strong>SELECT</strong>, <strong>FROM</strong>, <strong>WHERE</strong>, <strong>ORDER</strong>, etc. Ainsi, les arguments à garder dans notre fonction d&rsquo;exemple seraient <strong>$select</strong> et <strong>$from</strong>, puisque la requête SQL n’utilise que <strong>SELECT</strong> et <strong>FROM</strong>. La nomenclature à appliquer serait donc <strong>sql_select($select, $from)</strong>. Ce qui donnerait, dans notre exemple : <strong>sql_select(‘colonne_exemple’, ‘table_exemple’)</strong>.</p>
+
+
+
+<p>C’est ici un exemple très simple de l’utilisation de l’API, nous en verrons des plus complexes plus tard. L’idée ici est de montrer que, pour bien utiliser l’API, il faut avoir deux choses en tête : savoir quelle(s) information(s) on veut chercher dans la table, et comment traduire la recherche de ces informations en requête SQL, pour obtenir les données souhaitées.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>L&#8217;organisation des fichiers et du code</title>
+		<link>https://hugolgs-dev.github.io/lorganisation-des-fichiers-et-du-code/</link>
+		
+		<dc:creator><![CDATA[hugolgs-portfolio]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 23:26:30 +0000</pubDate>
+				<category><![CDATA[Rapport final]]></category>
+		<guid isPermaLink="false">https://hugolgs-dev.github.io/?p=235</guid>
+
+					<description><![CDATA[SPIP propose une répartition des répertoires et fichiers comme suit&#160;: Pour mes missions, j’ai utilisé deux répertoires : celui des formulaires, et celui du tableau de bord de l’évènement, localisé dans squelettes/inclure/applications/evenement. Le dossier applications étant également celui où l’on trouve les différentes applications d’un évènement, ici le tableau de bord, les participants et la billetterie. SPIP&#8230; <br> <a class="read-more" href="https://hugolgs-dev.github.io/lorganisation-des-fichiers-et-du-code/">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>SPIP propose une répartition des répertoires et fichiers comme suit&nbsp;:</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="288" height="427" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/fichiers_overview.jpg" alt="" class="wp-image-331" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/fichiers_overview.jpg 288w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/fichiers_overview-202x300.jpg 202w" sizes="(max-width: 288px) 100vw, 288px" /></figure></div>
+
+
+<p>Pour mes missions, j’ai utilisé deux répertoires : celui des formulaires, et celui du tableau de bord de l’évènement, <strong>localisé dans squelettes/inclure/applications/evenement</strong>. Le dossier <strong>applications</strong> étant également celui où l’on trouve les différentes applications d’un évènement, ici le tableau de bord, les participants et la billetterie.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="280" height="226" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/fichiers_formulaires.jpg" alt="" class="wp-image-329"/></figure></div>
+
+
+<p>SPIP fourni un cadre de travail qui permet de faciliter la création et la gestion de la logique des formulaires. Pour chaque formulaire d’un site sous SPIP, il faut créer deux fichiers. Un fichier .html qui structure le formulaire, à l’aide de la syntaxe de SPIP, et un fichier .php qui prend en charge le traitement des données du formulaire.<br>Le fichier .php d’un formulaire est composé de trois fonctions, nommées <strong>charger()</strong>, <strong>vérifier()</strong> et <strong>traiter()</strong>. Leur utilité est facile à deviner grâce à leurs noms :</p>
+
+
+
+<ul>
+<li>La fonction <strong>charger()</strong> permet de récupérer les données transmises par le formulaire depuis ses champs. Elle retourne ces données dans un tableau associatif.</li>
+
+
+
+<li>La fonction <strong>verifier()</strong> permet de vérifier les valeurs transmises via les champs du formulaire. Bien que SPIP soit fourni avec un ensemble de protocoles de sécurité déjà installés, il est important de vérifier les données transmises de la manière la plus rigoureuse possible. Elle retourne également un tableau associatif, qui permet d’afficher les éventuels messages d’erreur. Si aucun message d’erreur n’est retourné, on peut alors passer à la troisième et dernière fonction.</li>
+
+
+
+<li>Enfin, c’est dans la fonction <strong>traiter()</strong> que toutes les opérations sur les données transmises prennent place. </li>
+</ul>
+
+
+
+<p>Il est primordial de respecter la nomenclature et l’ordre des fonctions dans le fichier .php du formulaire. Prenons par exemple un formulaire nommé « contact ». Le fichier .php serait alors composé de trois fonctions, dans l’ordre : <strong>formulaires_contact_charger()</strong>, <strong>formulaires_contact_verifier()</strong> et <strong>formulaires_contact_traiter()</strong>.</p>
+
+
+
+<p>Voici le deuxième répertoire important du projet, celui des <strong>squelettes</strong>. Dans SPIP, les squelettes sont des fichiers qui permettent de générer les pages HTML d’un site. Ces fichiers, en plus de contenir du code HTML, contiennent des outils développés par SPIP, tels que les boucles ou les critères. Cela permet d’extraire les données de la base de données du site pour les afficher de manière dynamique sur une page. Le répertoire <strong>squelettes</strong> contient donc tous les fichiers qui gèrent l’affichage du contenu des pages.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="244" height="398" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/fichiers_squelettes.jpg" alt="" class="wp-image-332" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/fichiers_squelettes.jpg 244w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/fichiers_squelettes-184x300.jpg 184w" sizes="(max-width: 244px) 100vw, 244px" /></figure></div>
+
+
+<p>Ainsi, le répertoire <strong>applications</strong> contient tous les fichiers qui vont permettre de générer le contenu HTML des différentes pages composants chacune des applications de l&rsquo;évènement.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Présentation du back-office SPIP de l&#8217;application</title>
+		<link>https://hugolgs-dev.github.io/presentation-du-back-office-spip-de-lapplication/</link>
+		
+		<dc:creator><![CDATA[hugolgs-portfolio]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 23:25:50 +0000</pubDate>
+				<category><![CDATA[Rapport final]]></category>
+		<guid isPermaLink="false">https://hugolgs-dev.github.io/?p=233</guid>
+
+					<description><![CDATA[Balao étant développé avec SPIP,&#160;l’interface du back-office de l’application est très similaire aux autres sites faits avec SPIP. Les deux interfaces les plus intéressantes pour ce projet sont celles des auteurs et des espaces. Cette interface permet de visualiser le contenu de la table «&#160;spip_auteurs&#160;»&#160;directement depuis le back-office de spip. D’ici, on peut créer un&#8230; <br> <a class="read-more" href="https://hugolgs-dev.github.io/presentation-du-back-office-spip-de-lapplication/">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>Balao étant développé avec SPIP,&nbsp;l’interface du back-office de l’application est très similaire aux autres sites faits avec SPIP.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="539" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_accueil-1024x539.jpg" alt="" class="wp-image-304" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_accueil-1024x539.jpg 1024w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_accueil-300x158.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_accueil-768x404.jpg 768w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_accueil.jpg 1467w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Les deux interfaces les plus intéressantes pour ce projet sont celles des auteurs et des espaces.</p>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-1 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="877" height="601" data-id="305" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_auteurs.jpg" alt="" class="wp-image-305" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_auteurs.jpg 877w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_auteurs-300x206.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_auteurs-768x526.jpg 768w" sizes="(max-width: 877px) 100vw, 877px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="643" data-id="306" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_auteurs_infos-1024x643.jpg" alt="" class="wp-image-306" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_auteurs_infos-1024x643.jpg 1024w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_auteurs_infos-300x188.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_auteurs_infos-768x482.jpg 768w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_auteurs_infos.jpg 1167w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="843" height="801" data-id="307" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_auteurs_modifs.jpg" alt="" class="wp-image-307" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_auteurs_modifs.jpg 843w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_auteurs_modifs-300x285.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_auteurs_modifs-768x730.jpg 768w" sizes="(max-width: 843px) 100vw, 843px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="726" height="207" data-id="301" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_spip_auteurs.jpg" alt="" class="wp-image-301" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_spip_auteurs.jpg 726w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_spip_auteurs-300x86.jpg 300w" sizes="(max-width: 726px) 100vw, 726px" /></figure>
+</figure>
+
+
+
+<p>Cette interface permet de visualiser le contenu de la table «&nbsp;spip_auteurs&nbsp;»&nbsp;directement depuis le back-office de spip. D’ici, on peut créer un nouvel auteur, ainsi que modifier ou supprimer un auteur déjà existant dans la base de données.</p>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-2 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="858" height="410" data-id="309" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_espaces.jpg" alt="" class="wp-image-309" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_espaces.jpg 858w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_espaces-300x143.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_espaces-768x367.jpg 768w" sizes="(max-width: 858px) 100vw, 858px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="750" data-id="308" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_congres-1024x750.jpg" alt="" class="wp-image-308" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_congres-1024x750.jpg 1024w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_congres-300x220.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_congres-768x562.jpg 768w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bo_congres.jpg 1154w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="616" height="52" data-id="303" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_spip_espaces.jpg" alt="" class="wp-image-303" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_spip_espaces.jpg 616w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_spip_espaces-300x25.jpg 300w" sizes="(max-width: 616px) 100vw, 616px" /></figure>
+</figure>
+
+
+
+<p>De la même manière que pour l’interface des auteurs, celle-ci permet de visualiser le contenu de la table spip_espaces. Elle permet de visualiser les auteurs présents sur l’application, ainsi que leurs statuts, et également les applications installées. On peut par exemple voir dans la liste les applications vues dans P2&nbsp;: tableau de bord, billeterie et participants.</p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Présentation de la base de données</title>
+		<link>https://hugolgs-dev.github.io/presentation-de-la-base-de-donnees/</link>
+		
+		<dc:creator><![CDATA[hugolgs-portfolio]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 23:25:12 +0000</pubDate>
+				<category><![CDATA[Rapport final]]></category>
+		<guid isPermaLink="false">https://hugolgs-dev.github.io/?p=231</guid>
+
+					<description><![CDATA[La base de données de Balao contient 74 tables, dont la nomenclature est « spip_nomdelatable ». Certaines de ces tables sont générées automatiquement par SPIP, telles que spip_auteurs ou spip_articles. Mais la majorité d’entre elles ont été mises en place par mon tuteur de stage, qui a crée l&#8217;application Balao. Pour ce projet, j’ai travaillé avec 3&#8230; <br> <a class="read-more" href="https://hugolgs-dev.github.io/presentation-de-la-base-de-donnees/">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>La base de données de Balao contient 74 tables, dont la nomenclature est « spip_nomdelatable ». Certaines de ces tables sont générées automatiquement par SPIP, telles que spip_auteurs ou spip_articles. Mais la majorité d’entre elles ont été mises en place par mon tuteur de stage, qui a crée l&rsquo;application Balao.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="708" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_overview-1024x708.jpg" alt="" class="wp-image-300" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_overview-1024x708.jpg 1024w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_overview-300x207.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_overview-768x531.jpg 768w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_overview.jpg 1057w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>Pour ce projet, j’ai travaillé avec 3 tables : <strong>spip_espace</strong>, <strong>spip_auteurs </strong>et <strong>spip_auteurs_liens</strong>. Regardons maintenant le rôle que remplissent ces tables :</p>
+
+
+
+<ul>
+<li><strong>spip_espaces</strong> : Pour SPIP et la base de données du projet, un espace correspond à un évènement. Par exemple, le Congrès des Architectes est un espace. C’est donc dans cette table que sont référencés tous les évènements où les organisateurs utilisent Balao pour la gestion de leur évènement. Les colonnes importantes sont <strong>id_espace</strong> et <strong>id_auteur</strong>. La première est celle qui indique sous quel ID chaque évènement est enregistré et identifié. C’est également la clé primaire de la table. Pour id_auteur, son rôle est de voir qui est le créateur de l’évènement. La valeur correspond à une valeur présente dans une colonne id_auteur, mais dans la table spip_auteurs. C’est particulièrement utile pour filtrer les autorisations et les droits sur un évènement, puisqu’il peut y avoir qu’un seul créateur. C’est notamment grâce à cette colonne qu’on peut choisir qui peut supprimer les collaborateurs dans l’onglet «&nbsp;équipe&nbsp;» du tableau de bord de l’évènement.</li>
+
+
+
+<li><strong>spip_auteurs</strong>&nbsp;: Cette table référence tous les auteurs de la base de données de Balao. Les champs qui nous intéressent pour ces missions sont <strong>id_auteur</strong> et <strong>email</strong>. Le premier, également la clé primaire de la table, permet de relier un auteur à un espace dans la table <strong>spip_auteurs_liens</strong>. Le champs email nous servira comme clé pour transmettre les données dans le développement des fonctionnalités que j&rsquo;ai mené.</li>
+
+
+
+<li><strong>spip_auteurs_liens </strong>: Cette table permet de relier un auteur présent dans la base de données à un espace. C’est en modifiant cette table que l’on peut supprimer et ajouter un collaborateur ou une collaboratrice à un évènement.</li>
+</ul>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-3 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="616" height="52" data-id="303" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_spip_espaces.jpg" alt="" class="wp-image-303" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_spip_espaces.jpg 616w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_spip_espaces-300x25.jpg 300w" sizes="(max-width: 616px) 100vw, 616px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="726" height="207" data-id="301" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_spip_auteurs.jpg" alt="" class="wp-image-301" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_spip_auteurs.jpg 726w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_spip_auteurs-300x86.jpg 300w" sizes="(max-width: 726px) 100vw, 726px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="573" height="601" data-id="302" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_spip_auteurs_liens.jpg" alt="" class="wp-image-302" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_spip_auteurs_liens.jpg 573w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/bdd_spip_auteurs_liens-286x300.jpg 286w" sizes="(max-width: 573px) 100vw, 573px" /></figure>
+</figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Présentation de l&#8217;interface</title>
+		<link>https://hugolgs-dev.github.io/presentation-de-linterface/</link>
+		
+		<dc:creator><![CDATA[hugolgs-portfolio]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 23:18:28 +0000</pubDate>
+				<category><![CDATA[Rapport final]]></category>
+		<guid isPermaLink="false">https://hugolgs-dev.github.io/?p=219</guid>
+
+					<description><![CDATA[Il s’agit là de l’interface qui sera utilisée par les organisateurs de l’évènement. Pour le moment, il n’y a que trois applications, bien qu’un évènement peut en accueillir plus&#160;: Revenons maintenant sur la première interface, le tableau de bord. On peut voir qu’elle contient trois onglets. L’onglet d’accueil, l’onglet des dates et du lieu, et&#8230; <br> <a class="read-more" href="https://hugolgs-dev.github.io/presentation-de-linterface/">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>Il s’agit là de l’interface qui sera utilisée par les organisateurs de l’évènement. Pour le moment, il n’y a que trois applications, bien qu’un évènement peut en accueillir plus&nbsp;:</p>
+
+
+
+<ul>
+<li><strong>Tableau de bord</strong>&nbsp;: c’est la page d’accueil de l’évènement, tous les évènements en ont une. Tous les utilisateurs ayant accès à l’espace ont un tableau de bord qui leur est présenté en arrivant sur l&rsquo;espace.</li>
+
+
+
+<li><strong>Participants</strong>&nbsp;: gestion des participants, accessible uniquement aux organisateurs et autres personnes avec les autorisations spécifiques.</li>
+
+
+
+<li><strong>Billeterie</strong>&nbsp;: back-office de la billeterie pour acheter sa place au congrès. Elle permet à l’utilisateur de gérer les forfaits, les tarifs, etc.&nbsp;</li>
+</ul>
+
+
+
+<figure class="wp-block-gallery aligncenter has-nested-images columns-default is-cropped wp-block-gallery-4 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="664" data-id="291" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_accueil-1024x664.jpg" alt="" class="wp-image-291" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_accueil-1024x664.jpg 1024w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_accueil-300x195.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_accueil-768x498.jpg 768w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_accueil.jpg 1439w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="501" data-id="339" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_participants-1-1024x501.jpg" alt="" class="wp-image-339" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_participants-1-1024x501.jpg 1024w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_participants-1-300x147.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_participants-1-768x376.jpg 768w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_participants-1-1536x751.jpg 1536w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_participants-1.jpg 1910w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="501" data-id="294" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_billeterie-1024x501.jpg" alt="" class="wp-image-294" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_billeterie-1024x501.jpg 1024w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_billeterie-300x147.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_billeterie-768x376.jpg 768w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_billeterie-1536x752.jpg 1536w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_billeterie.jpg 1889w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+</figure>
+
+
+
+<p>Revenons maintenant sur la première interface, le tableau de bord. On peut voir qu’elle contient trois onglets. L’onglet d’accueil, l’onglet des dates et du lieu, et enfin l’onglet de l’équipe.</p>
+
+
+
+<p>Pour l’onglet <strong>dates et lieu</strong>, on retrouve une interface qui permet à l’organisateur de modifier les informations concernant les dates et le lieu de l’évènement.</p>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="806" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_tdb_dates-1024x806.jpg" alt="" class="wp-image-299" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_tdb_dates-1024x806.jpg 1024w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_tdb_dates-300x236.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_tdb_dates-768x604.jpg 768w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_tdb_dates.jpg 1179w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<p>L’onglet <strong>équipe</strong> est celui qui nous intéresse le plus, car c’est sur cette partie que mes missions ont porté. Cet onglet a pour but d’afficher les personnes inscrites à l’évènement, bien que pour l’instant, seules les personnes organisant l’évènement sont affichées. Sont affichées également certaines informations : l&rsquo;e-mail, le nom, statut. Enfin, vous pouvez remarquer deux éléments : un icône représentant une corbeille sur la droite de l’écran, et un bouton « ajouter un collaborateur » en bas à gauche. Ces boutons permettent de gérer les collaborateurs et collaboratrices associées à l’évènement. Seules les personnes avec le statut de créateur peuvent supprimer quelqu’un de l’évènement, mais tout le monde peut ajouter quelqu&rsquo;un d&rsquo;autre à l&rsquo;évènement. Le but de ces fonctionnalités est de rendre accessible, depuis l’interface utilisateur, des opérations qui sont normalement possibles depuis la base de données et le back-office du site. En plus de limiter l’accès aux parties sensibles du site, cela permet de filtrer plus facilement qui peut faire quoi.</p>
+
+
+
+<figure class="wp-block-gallery has-nested-images columns-default is-cropped wp-block-gallery-5 is-layout-flex wp-block-gallery-is-layout-flex">
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="274" data-id="295" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe-1024x274.jpg" alt="" class="wp-image-295" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe-1024x274.jpg 1024w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe-300x80.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe-768x205.jpg 768w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe-1536x411.jpg 1536w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe.jpg 1626w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+
+
+
+<figure class="wp-block-image size-large"><img loading="lazy" decoding="async" width="1024" height="257" data-id="296" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe_empty-1024x257.jpg" alt="" class="wp-image-296" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe_empty-1024x257.jpg 1024w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe_empty-300x75.jpg 300w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe_empty-768x193.jpg 768w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe_empty-1536x386.jpg 1536w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/app_equipe_empty.jpg 1611w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+</figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Préambule et présentation de Balao</title>
+		<link>https://hugolgs-dev.github.io/preambule-et-presentation-de-balao/</link>
+		
+		<dc:creator><![CDATA[hugolgs-portfolio]]></dc:creator>
+		<pubDate>Thu, 23 May 2024 23:17:42 +0000</pubDate>
+				<category><![CDATA[Rapport final]]></category>
+		<guid isPermaLink="false">https://hugolgs-dev.github.io/?p=217</guid>
+
+					<description><![CDATA[L’objectif principal de mes missions sur ce projet était d’implémenter des fonctionnalités de gestion d’utilisateurs dans l’interface utilisateurs. Ces fonctionnalités sont déjà accessibles dans le back-office et la base de données du site. Cependant, bien que l’on souhaite que l’organisateur d’un évènement puisse gérer les collaborateurs, on ne veut pas qu’il puisse accéder au back-office&#8230; <br> <a class="read-more" href="https://hugolgs-dev.github.io/preambule-et-presentation-de-balao/">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>L’objectif principal de mes missions sur ce projet était d’implémenter des fonctionnalités de gestion d’utilisateurs dans l’interface utilisateurs. Ces fonctionnalités sont déjà accessibles dans le back-office et la base de données du site. Cependant, bien que l’on souhaite que l’organisateur d’un évènement puisse gérer les collaborateurs, on ne veut pas qu’il puisse accéder au back-office et à la base de données. Cela peut s&rsquo;avérer trop dangereux si la personne n&rsquo;a pas les compétences ou l&rsquo;expérience pour. De plus, en implémentant ces fonctionnalités sur l&rsquo;interface, cela nous permet de mettre en place des protocoles de sécurité supplémentaires, traités automatique par le code.</p>
+
+
+
+<p>Au départ, il était prévu que j’installe les fichiers du projet sur mon ordinateur pour que je puisse travailler sur un serveur local. Cependant, je me suis retrouvé confronté à plusieurs bugs et problématiques impossibles à résoudre.<br>Wampserver étant la solution que j’utilise depuis le début de ma formation, c’est là où j’ai installé le projet au début. Dans les fichiers du projet, j’ai également dû installer les plugins de Balao, à savoir Balao, Balao Cloud et Orion (le framework de développement de l’agence). Cependant, les plugins balao et balao cloud n’étaient pas reconnus. J&rsquo;ai essayé avec d&rsquo;autres logiciels, tels que MAMP et XAMPP, mais aucun succès non plus ici.<br>Ensuite, nous avons tenté d’installer le projet sous une machine virtuelle sous Debian, pour l’utiliser comme serveur de développement local, et y accéder depuis mon ordinateur, mais sans succès ici non plus.</p>
+
+
+
+<p>Finalement, nous avons décidé que je travaille sur un serveur de DEV en FTP, mis en place et maintenu par mon tuteur de stage. </p>
+]]></content:encoded>
+					
+		
+		
+			</item>
+		<item>
+		<title>Mise en place du carousel</title>
+		<link>https://hugolgs-dev.github.io/mise-en-place-du-carousel/</link>
+		
+		<dc:creator><![CDATA[hugolgs-portfolio]]></dc:creator>
+		<pubDate>Wed, 22 May 2024 23:33:35 +0000</pubDate>
+				<category><![CDATA[Rapport final]]></category>
+		<guid isPermaLink="false">https://hugolgs-dev.github.io/?p=251</guid>
+
+					<description><![CDATA[Voici maintenant la deuxième partie de la mission, la mise en place du carousel sur la page du site internet, en utilisant la bibliothèque slick.js. Après avoir attribué la classe « temoignages-slick » au bloc de la page accueillant le carousel, on configure ce dernier avec la fonction slick(). Pour cela, on configure les paramètres d&#8217;un carousel&#8230; <br> <a class="read-more" href="https://hugolgs-dev.github.io/mise-en-place-du-carousel/">Read more</a>]]></description>
+										<content:encoded><![CDATA[
+<p>Voici maintenant la deuxième partie de la mission, la mise en place du carousel sur la page du site internet, en utilisant la bibliothèque slick.js.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="353" height="427" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/carousel_code.jpg" alt="jQuery('.temoignages-slick').slick({ infinite: false, slidesToScroll: 1, slidesToShow: 3, focusOnSelect: true, responsive: [ { breakpoint: 950, settings: { slidesToShow: 2, slidesToScroll: 1 } }, { breakpoint: 700, settings: { slidesToShow: 1, slidesToScroll: 1 } }, ] });" class="wp-image-283" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/carousel_code.jpg 353w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/carousel_code-248x300.jpg 248w" sizes="(max-width: 353px) 100vw, 353px" /></figure></div>
+
+
+<p>Après avoir attribué la classe <strong>« temoignages-slick »</strong> au bloc de la page accueillant le carousel, on configure ce dernier avec la fonction <strong>slick()</strong>. Pour cela, on configure les paramètres d&rsquo;un carousel slick qui nous intéressent. Avec <strong>infinite: false</strong>, on indique qu&rsquo;une fois que le carousel est arrivé à la dernière slide, il s&rsquo;arrête là plutôt que de retourner à la première slide. Petite précision, un slide dans ce contexte corresponde à un témoignage. Il y a cinq témoignages, donc le carousel comporte cinq slides. <strong>slidesToShow</strong> nous permet de définir le nombre de témoignages qui apparaissent sur l&rsquo;écran simultanément. Lorsque l&rsquo;on appuie sur une flèche pour faire défiler le carousel, <strong>slidesToScroll</strong> nous indique qu&rsquo;un seul témoignage sera enlevé, et un seul ajouté à l&rsquo;écran, à chaque fois que l&rsquo;on clique sur la flèche. <strong>focusOnSelect</strong> fait en sorte que, lorsque l&rsquo;utilisateur clique sur l&rsquo;un des témoignages, ce témoignages devient « actif ». C&rsquo;est à dire qu&rsquo;il devient le témoignage qui sera centré sur la page avec le carousel. Enfin, <strong>responsive[]</strong> nous permet de changer ces paramètres selon la largeur de l&rsquo;écran.</p>
+
+
+<div class="wp-block-image">
+<figure class="aligncenter size-full"><img loading="lazy" decoding="async" width="704" height="366" src="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/carousel_desac_fleches.jpg" alt="/* désactivier flèches au bout du carousel */ jQuery('.temoignages-slick').on('afterChange', function(event, slick, currentSlide){ var slickInstance = jQuery(this); // arrivé à extremité gauche if(currentSlide === 0){ slickInstance.find('.slick-prev').addClass('disabled', 'disabled'); } else { slickInstance.find('.slick-prev').removeClass('disabled'); } // arrivé à extremité droite if(currentSlide === slick.slideCount - 1){ slickInstance.find('.slick-next').addClass('disabled', 'disabled'); } else { slickInstance.find('.slick-next').removeClass('disabled'); } });" class="wp-image-285" srcset="https://hugolgs-dev.github.io/wp-content/uploads/2024/05/carousel_desac_fleches.jpg 704w, https://hugolgs-dev.github.io/wp-content/uploads/2024/05/carousel_desac_fleches-300x156.jpg 300w" sizes="(max-width: 704px) 100vw, 704px" /></figure></div>
+
+
+<p>Maintenant que le carousel est fonctionnel, on ajoute un élément d&rsquo;ergonomie. Lorsque le carousel arrive sur le dernier témoignage, en défilant sur la droite, il ne peut continuer à défiler, puisque nous avons entré le paramètres <strong>infinite: false.</strong> Avec ce code, lorsque l&rsquo;on arrive sur ce cas de figure, on montre à l&rsquo;utilisateur qu&rsquo;il ne peut plus continuer le défilement à droite, en désactivant la flèche qui permet ce défilement. Bien entendu, la même opération a été effectuée pour le défilement vers la gauche et la flèche de gauche.</p>
+
+
+
+<p>Voici une vidéo de démonstration du carousel, avec le reste de la page. Bon visionnage.</p>
+
+
+
+<figure class="wp-block-embed is-type-video is-provider-youtube wp-block-embed-youtube wp-embed-aspect-16-9 wp-has-aspect-ratio"><div class="wp-block-embed__wrapper">
+<div class='embed-container'><iframe loading="lazy" title="Démonstration carousel témoignages clients" width="1920" height="1080" src="https://www.youtube.com/embed/knxLRRt4Hgw?feature=oembed" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+</div></figure>
+]]></content:encoded>
+					
+		
+		
+			</item>
+	</channel>
+</rss>
